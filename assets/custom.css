@@ -144,3 +144,15 @@ footer .footer__blocks-wrapper .footer-block {width: 40%;}
 .footer-block__details-content p {
     color: #fff;
 }
+.footer-block-image.center {
+    flex-direction: column;
+    align-items: start;
+}
+
+footer .social-wrap {
+    margin-top: 30px;
+}
+
+footer .footer__blocks-wrapper .footer-block:last-child {
+    width: 15%;
+}
