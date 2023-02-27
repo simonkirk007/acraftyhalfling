@@ -5,6 +5,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "ee68bd5b-e3a2-4a58-9c8a-22abc9dff23c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/footer-logo.png",
+            "image_width": 220,
+            "alignment": "center"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -22,12 +30,13 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Info",
+            "subtext": "<p>Common questions<br\/>Terms and conditions <br\/>Information<br\/>Shipping & payment<br\/>Right of withdrawal<br\/>Sitemap<\/p>"
           }
         }
       },
       "block_order": [
+        "ee68bd5b-e3a2-4a58-9c8a-22abc9dff23c",
         "footer-0",
         "footer-1",
         "footer-2"
