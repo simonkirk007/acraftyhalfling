@@ -141,3 +141,6 @@ footer .footer__blocks-wrapper .footer-block {width: 40%;}
     color: #fff !important;
     text-decoration: none;
 }
+.footer-block__details-content p {
+    color: #fff;
+}
