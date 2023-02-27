@@ -179,3 +179,20 @@ footer .social-wrap {
 .footer__content-bottom {
     padding: 0 !important;
 }
+.before-footer {
+    position: relative;
+}
+
+.before-footer .img-wrap {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-64%);
+}
+
+.before-footer .img-left {
+    left: -200px;
+}
+
+.before-footer .img-right {
+    right: -200px;
+}
