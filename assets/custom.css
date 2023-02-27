@@ -1,3 +1,7 @@
+.d-none{
+    display: none;
+}
+
 a, a.button {
     font-family: 'Sarcastic Inline', sans-serif;
 }
