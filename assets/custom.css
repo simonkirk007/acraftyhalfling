@@ -114,3 +114,6 @@ button.slider-button {
 .slideshow__text-wrapper.banner__content {
     padding: 120px 0 !important;
 }
+button.slider-button {
+    display: none;
+}
