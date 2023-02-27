@@ -121,11 +121,15 @@ footer {
     background-color: #000 !important;
     color: #fff;
 }
-footer .footer__blocks-wrapper .footer-block.footer-block--menu, footer .footer__blocks-wrapper .footer-block:last-child {width: 20%;}
+footer .footer__blocks-wrapper .footer-block.footer-block--menu, 
+footer .footer__blocks-wrapper .footer-block:last-child 
+{width: 25%;}
 
 
-footer .footer__blocks-wrapper .footer-block {width: 40%;}
-
+footer .footer__blocks-wrapper .footer-block {width: 35%;}
+footer .footer__blocks-wrapper .footer-block:last-child {
+    width: 15%;
+}
 .footer-block ul li a, .footer-block  h2.footer-block__heading {
     color: #fff !important;
     font-size: 50px;
@@ -153,6 +157,3 @@ footer .social-wrap {
     margin-top: 30px;
 }
 
-footer .footer__blocks-wrapper .footer-block:last-child {
-    width: 15%;
-}
