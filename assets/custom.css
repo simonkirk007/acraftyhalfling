@@ -161,3 +161,20 @@ footer .social-wrap {
     margin-top: 30px;
 }
 
+
+.footer__content-bottom .footer__content-bottom-wrapper {
+    color: #fff;
+}
+
+.footer__content-bottom .footer__content-bottom-wrapper>div {
+    width: 100%;
+}
+
+.footer__content-bottom .footer__content-bottom-wrapper {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.footer__content-bottom {
+    padding: 0 !important;
+}
