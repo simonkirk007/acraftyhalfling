@@ -30,8 +30,8 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Info",
+            "subtext": "<p>Common questions<br\/>Terms and conditions <br\/>Information<br\/>Shipping & payment<br\/>Right of withdrawal<br\/>Sitemap<\/p>"
           }
         }
       },
