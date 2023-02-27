@@ -117,3 +117,27 @@ button.slider-button {
 button.slider-button {
     display: none;
 }
+footer {
+    background-color: #000 !important;
+    color: #fff;
+}
+footer .footer__blocks-wrapper .footer-block.footer-block--menu, footer .footer__blocks-wrapper .footer-block:last-child {width: 20%;}
+
+
+footer .footer__blocks-wrapper .footer-block {width: 40%;}
+
+.footer-block ul li a, .footer-block  h2.footer-block__heading {
+    color: #fff !important;
+    font-size: 50px;
+}
+
+.footer-block ul li a.list-menu__item {
+    font-size: 18px;
+    color: #ddd !important;
+    font-weight: 500;
+}
+
+.footer-block ul li a.list-menu__item:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
