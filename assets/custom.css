@@ -17,6 +17,7 @@ header ul li a.link {
 }
 header.header--middle-left {
     grid-template-columns: 1fr 2fr auto auto;
+    padding: 15px 0 !important;
 }
 
 a.button.button--primary {
@@ -108,4 +109,8 @@ span.header__active-menu-item, .header__menu-item:hover {
 }
 button.slider-button {
     position: absolute;
+}
+
+.slideshow__text-wrapper.banner__content {
+    padding: 120px 0 !important;
 }
