@@ -328,6 +328,7 @@ section.collection-sec.social-sec .main-title h1 img {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: auto;
 }
 .social-sec a.insta-link img.insta-logo {
     width: auto;
