@@ -270,7 +270,7 @@ section.about-sec .content-wrap p {
 section.about-sec .content-wrap{
     margin-top: 100px;
 }
-section.about-sec {
+section.about-sec, section.collection-sec {
     padding: 50px 0;
 }
 section.collection-sec .main-title h1 img {
