@@ -312,3 +312,8 @@ section.collection-sec.cat-sec .main-title h1 img {
     left: 0;
     bottom: -48px;
 }
+.cat-sec .collection-wrap .collection-img h2 {
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+}
