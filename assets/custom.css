@@ -323,3 +323,16 @@ section.collection-sec.social-sec .main-title h1 img {
     text-align: center;
 }
 .cat-sec .collection-wrap .collection-img a.cat-title {text-decoration: unset;}
+.social-sec a.insta-link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.social-sec a.insta-link img.insta-logo {
+    width: auto;
+}
+
+.social-sec .collection-wrap .row {
+    position: relative;
+}

@@ -20,10 +20,13 @@
             </div>
           </div>
         {%- endfor -%}
-        <img
-          src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/instagram.png?v=1677778022"
-          alt=""
-          class="insta-logo">
+        <a href="{{ section.settings.insta_button_link }}" class="insta-link">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/instagram.png?v=1677778022"
+            alt=""
+            class="insta-logo">
+        </a>
+
       </div>
     </div>
   </div>
@@ -47,6 +50,10 @@
         "id": "main_content",
         "default": "Multicolumn",
         "label": "Main Content"
+      }, {
+        "type": "url",
+        "id": "insta_button_link",
+        "label": "Insta Url"
       }
     ],
     "blocks": [
