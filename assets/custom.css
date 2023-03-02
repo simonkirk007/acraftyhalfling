@@ -273,6 +273,13 @@ section.about-sec .content-wrap{
 section.about-sec, section.collection-sec {
     padding: 50px 0;
 }
+section.collection-sec,
+section.about-sec {
+    background-image: url('https://cdn.shopify.com/s/files/1/0715/3156/1246/files/bg-white.png?v=1677507140');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 section.collection-sec .main-title h1 img {
     display: none;
 }
