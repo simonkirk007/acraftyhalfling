@@ -228,6 +228,7 @@ section.about-sec .about-right {
     font-size: 90px;
     position: relative;
     display: inline-block;
+    margin-top: 30px;
 }
 .main-title h1::after,
 .main-title h1::before {
@@ -240,11 +241,18 @@ section.about-sec .about-right {
     background-position: center;
     background-repeat: no-repeat;
     top: 50%;
-    left: 100%;
+    left: calc(100% + 15px);
     transform: translateY(-50%);
 }
 .main-title h1::before {
     background-image: url('https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-left.png?v=1677772916');
     left: auto;
-    right: 100%;
+    right: calc(100% + 15px);
+}
+
+.main-title h1 img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
 }
