@@ -201,3 +201,12 @@ footer .social-wrap {
 .before-footer .img-right {
     right: -200px;
 }
+section.about-sec .about-img img {
+    width: 100% !important;
+}
+section.about-sec .about-left {
+    padding-right: 100px;
+}
+section.about-sec .about-right {
+    padding-left: 100px;
+}

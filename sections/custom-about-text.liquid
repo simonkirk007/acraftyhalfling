@@ -6,19 +6,19 @@
         <h1>{{ section.settings.main_title | escape }}</h1>
         <p>{{ section.settings.main_content | escape }}</p>
       </div>
-      <div class="row">
+      <div class="row justify-content-between">
         <div class="col-lg-4">
-          <div class="about-img left">
+          <div class="about-img about-left">
             <img src="{{ section.settings.left_image | image_url }}" alt="">
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="about-img center">
+        <div class="col-lg-3">
+          <div class="about-img about-center">
             <img src="{{ section.settings.center_image | image_url }}" alt="">
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="about-img right">
+          <div class="about-img about-right">
             <img src="{{ section.settings.right_image | image_url }}" alt="">
           </div>
         </div>
