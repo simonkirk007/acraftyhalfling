@@ -1,0 +1,83 @@
+<section class="collection-sec">
+  <div class="main-title">
+    <h1>
+      <img src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-top.png?v=1677772916" alt="">
+      {{ section.settings.main_title | escape }}
+    </h1>
+    {%- if section.settings.main_content != blank -%}
+      <p>{{ section.settings.main_content | escape }}</p>
+    {%- endif -%}
+  </div>
+  <div class="container">
+    <div class="collection-wrap">
+      <div class="row justify-content-between align-items-end">
+        {%- for block in section.blocks -%}
+          <div class="col-lg-3">
+            <div class="collection-img">
+              <a href="{{ block.settings.button_link }}">
+                <img src="{{ block.settings.image | image_url }}" alt="">
+              </a>
+            </div>
+          </div>
+        {%- endfor -%}
+        <img
+          src=""
+          alt=""
+          class="insta-logo">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Custom Social Section",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "main_title",
+        "default": "Multicolumn",
+        "label": "Main Title"
+      }, {
+        "type": "text",
+        "id": "main_content",
+        "default": "Multicolumn",
+        "label": "Main Content"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+          }, {
+            "type": "url",
+            "id": "button_link",
+            "label": "t:sections.multicolumn.settings.button_link.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Social Section",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
