@@ -111,11 +111,73 @@
         "main_title": "The Collections Gallery",
         "main_content": ""
       }
+    },
+    "222904a1-4ae0-411d-bcf9-b4103ce05918": {
+      "type": "custom-category",
+      "blocks": {
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_77.png",
+            "button_link": "shopify:\/\/collections"
+          }
+        },
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_78.png",
+            "button_link": "shopify:\/\/collections"
+          }
+        },
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_79.png",
+            "button_link": "shopify:\/\/collections"
+          }
+        },
+        "3b2f0ce7-55bc-4210-b7b3-dca5da161908": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_75.png",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "a8bb6426-37e9-4572-b346-cdc44e39be3b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_74.png",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "723d84a4-ae61-48f1-a93a-fbd0c711b2c8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_76.png",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-0",
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-1",
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-2",
+        "3b2f0ce7-55bc-4210-b7b3-dca5da161908",
+        "a8bb6426-37e9-4572-b346-cdc44e39be3b",
+        "723d84a4-ae61-48f1-a93a-fbd0c711b2c8"
+      ],
+      "settings": {
+        "main_title": "Multicolumn",
+        "main_content": "Multicolumn",
+        "main_button_text": "Multicolumn",
+        "main_button_link": ""
+      }
     }
   },
   "order": [
     "82c2f430-3351-4c44-af7a-3b7cc0a24eb9",
     "32c41e16-1668-4501-963b-0399f80ab824",
-    "c70b9d43-0bc1-45a7-b4b6-840388de779d"
+    "c70b9d43-0bc1-45a7-b4b6-840388de779d",
+    "222904a1-4ae0-411d-bcf9-b4103ce05918"
   ]
 }
