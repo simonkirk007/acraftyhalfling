@@ -1,12 +1,11 @@
 <section class="about-sec">
+  <div class="main-title">
+    <h1>{{ section.settings.main_title | escape }}</h1>
+    <p>{{ section.settings.main_content | escape }}</p>
+  </div>
   <div class="container-fluid">
-
     <div class="about-wrap">
-      <div class="main-title">
-        <h1>{{ section.settings.main_title | escape }}</h1>
-        <p>{{ section.settings.main_content | escape }}</p>
-      </div>
-      <div class="row justify-content-between">
+      <div class="row justify-content-between align-items-end">
         <div class="col-lg-4">
           <div class="about-img about-left">
             <img src="{{ section.settings.left_image | image_url }}" alt="">

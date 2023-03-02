@@ -205,8 +205,25 @@ section.about-sec .about-img img {
     width: 100% !important;
 }
 section.about-sec .about-left {
-    padding-right: 100px;
+    padding-right: 50px;
 }
 section.about-sec .about-right {
-    padding-left: 100px;
+    padding-left: 50px;
+}
+.about-img.about-center {
+    padding: 0 0px;
+}
+
+.main-title {
+    max-width: 1024px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.main-title p {
+    font-size: 25px;
+}
+
+.main-title h1 {
+    font-size: 90px;
 }
