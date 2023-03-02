@@ -1,7 +1,12 @@
+html,body{
+    overflow-x: hidden;
+}
+
 .d-none,
 .d-none.footer__content-bottom-wrapper.page-width {
     display: none !important;
 }
+
 
 a, a.button {
     font-family: 'Sarcastic Inline', sans-serif;
@@ -11,7 +16,7 @@ header {
 }
 
 .page-width {
-    max-width: 1400px;
+    max-width: 1200px;
 }
 
 header ul li a.link {
