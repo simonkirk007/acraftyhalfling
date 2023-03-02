@@ -1,4 +1,4 @@
-<section class="collection-sec">
+<section class="collection-sec cat-sec">
   <div class="main-title">
     <h1>
       <img src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-top.png?v=1677772916" alt="">
@@ -12,10 +12,14 @@
     <div class="collection-wrap">
       <div class="row justify-content-between align-items-end">
         {%- for block in section.blocks -%}
-          <div class="col-lg-3">
+          <div class="col-lg-4 col-12">
             <div class="collection-img">
               <a href="{{ block.settings.button_link }}">
                 <img src="{{ block.settings.image | image_url }}" alt="">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/cat-back.png?v=1677775937"
+                  alt=""
+                  class="bg-img">
               </a>
             </div>
           </div>
@@ -23,13 +27,16 @@
 
       </div>
     </div>
+    <div class="button-wrap">
+      <a href="{{ section.settings.main_button_link }}">{{ section.settings.main_button_text | escape }}</a>
+    </div>
   </div>
 </section>
 
 
 {% schema %}
   {
-    "name": "Custom Categroy Section",
+    "name": "Custom Category Section",
     "tag": "section",
     "class": "section",
     "settings": [
@@ -73,7 +80,7 @@
     ],
     "presets": [
       {
-        "name": "Custom Categroy Section",
+        "name": "Custom Category Section",
         "blocks": [
           {
             "type": "column"
