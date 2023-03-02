@@ -4,8 +4,9 @@
       <img src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-top.png?v=1677772916" alt="">
       {{ section.settings.main_title | escape }}
     </h1>
-    {{ if section.settings.main_content }}<p>{{ section.settings.main_content | escape }}</p>
-    {{ endif }}
+    {%- if section.settings.main_content -%}
+      <p>{{ section.settings.main_content | escape }}</p>
+    {%- endif -%}
   </div>
   <div class="container-fluid">
     <div class="about-wrap">
