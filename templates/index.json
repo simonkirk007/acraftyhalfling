@@ -219,7 +219,8 @@
       ],
       "settings": {
         "main_title": "Let's Get Social",
-        "main_content": ""
+        "main_content": "",
+        "insta_button_link": "shopify:\/\/collections"
       }
     }
   },
