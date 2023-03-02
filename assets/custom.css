@@ -303,7 +303,7 @@ section.collection-sec.cat-sec .main-title h1 img {
 .cat-sec .collection-wrap .collection-img a {
     position: relative;
     display: table;
-    margin: 0 auto 100px;
+    margin: 0 auto 50px;
 }
 
 .cat-sec .collection-wrap .collection-img img.bg-img {
@@ -317,3 +317,4 @@ section.collection-sec.cat-sec .main-title h1 img {
     width: 100%;
     text-align: center;
 }
+.cat-sec .collection-wrap .collection-img a.cat-title {text-decoration: unset;}
