@@ -290,6 +290,25 @@ section.collection-sec .main-title h1 img {
 section.collection-sec.cat-sec .main-title h1 img {
     display: block;
 }
-.cat-sec .collection-wrap .collection-img{
-    
+.cat-sec .collection-wrap .collection-img img.main-img {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    z-index: 2;
+}
+
+.cat-sec .collection-wrap .collection-img a {
+    position: relative;
+    display: table;
+    margin: 0 auto 100px;
+}
+
+.cat-sec .collection-wrap .collection-img img.bg-img {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    bottom: -48px;
 }
