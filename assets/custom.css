@@ -291,7 +291,8 @@ section.collection-sec .main-title h1 img {
     width: 100%;
     height: auto;
 }
-section.collection-sec.cat-sec .main-title h1 img {
+section.collection-sec.cat-sec .main-title h1 img,
+section.collection-sec.social-sec .main-title h1 img {
     display: block;
 }
 .cat-sec .collection-wrap .collection-img img.main-img {
