@@ -130,11 +130,22 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "32c41e16-1668-4501-963b-0399f80ab824": {
+      "type": "custom-about-text",
+      "settings": {
+        "main_title": "About Cėfty Halfling",
+        "main_content": "Our brand focuses on clever ways to incorporate fantasy into everyday life. Crafty is a play on words of handmade crafts as well and cleverness.",
+        "center_image": "shopify:\/\/shop_images\/about_center.png",
+        "left_image": "shopify:\/\/shop_images\/about1.png",
+        "right_image": "shopify:\/\/shop_images\/about2.png"
+      }
     }
   },
   "order": [
     "82c2f430-3351-4c44-af7a-3b7cc0a24eb9",
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "32c41e16-1668-4501-963b-0399f80ab824"
   ]
 }
