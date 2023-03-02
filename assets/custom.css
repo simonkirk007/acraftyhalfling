@@ -273,3 +273,10 @@ section.about-sec .content-wrap{
 section.about-sec {
     padding: 50px 0;
 }
+section.collection-sec .main-title h1 img {
+    display: none;
+}
+.collection-wrap .collection-img img {
+    width: 100%;
+    height: auto;
+}
