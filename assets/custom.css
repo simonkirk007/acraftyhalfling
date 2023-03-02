@@ -237,7 +237,8 @@ section.about-sec .about-right {
     font-size: 90px;
     position: relative;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 40px;
+    line-height: 80px;
 }
 .main-title h1::after,
 .main-title h1::before {
@@ -263,7 +264,7 @@ section.about-sec .about-right {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -30px;
+    top: -40px;
 }
 section.about-sec .content-wrap p {
     font-size: 25px;
