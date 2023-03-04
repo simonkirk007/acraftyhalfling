@@ -297,7 +297,8 @@
         "main_title": "Multicolumn",
         "main_content": "Multicolumn",
         "main_button_text": "Multicolumn",
-        "main_button_link": ""
+        "main_button_link": "",
+        "collection": ""
       }
     },
     "a279611d-7c19-4cfe-af9a-162d72d0cefa": {
@@ -334,7 +335,8 @@
         "main_title": "Multicolumn",
         "main_content": "Multicolumn",
         "main_button_text": "Multicolumn",
-        "main_button_link": ""
+        "main_button_link": "",
+        "collection": "dice-bags"
       }
     }
   },
