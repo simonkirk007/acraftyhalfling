@@ -374,10 +374,7 @@ section.product-sec .main-title h1, section.product-sec .main-title p {
     font-family: 'Sarcastic Inline';
 }
 
-.product-box .product-con .price::before {
-    content: 'USD';
-    margin-right: 5px;
-}
+
 .product-box .product-con h3 {margin-bottom: 20px;}
 
 .product-box .product-img {
