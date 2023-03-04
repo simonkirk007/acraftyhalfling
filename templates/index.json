@@ -294,9 +294,9 @@
         "template--18049197867294__c0d5860c-e3ef-4817-b284-5166b2c5ae82-1677938223301323ec-2"
       ],
       "settings": {
-        "main_title": "Multicolumn",
-        "main_content": "Multicolumn",
-        "main_button_text": "Multicolumn",
+        "main_title": "Featured Products",
+        "main_content": "",
+        "main_button_text": "",
         "main_button_link": "",
         "collection": "home-page"
       }
