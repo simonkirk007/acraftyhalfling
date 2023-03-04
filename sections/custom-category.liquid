@@ -14,7 +14,7 @@
               <div class="cont-wrap">
                 <h2>{{ block.settings.order_title | escape }}</h2>
                 {{ block.settings.order_text }}
-                <a href="{{ block.settings.button_link }}" class="cat-title">{{ block.settings.button_link }}</a>
+                <a href="{{ block.settings.button_link }}" class="button button--primary">{{ block.settings.button_link }}</a>
               </div>
             </div>
           </div>
@@ -22,10 +22,11 @@
       </div>
 
     </div>
+    {% comment %}
     <div class="button-wrap center">
-      <a href="{{ section.settings.main_button_link }}" class="button button--primary">{{ section.settings.main_button_text | escape }}</a>
-    </div>
-  </div>
+    <a href="{{ section.settings.main_button_link }}" class="button button--primary">{{ section.settings.main_button_text | escape }}</a>
+    </div>  
+    {% endcomment %}</div>
 </section>
 
 
@@ -34,28 +35,7 @@
     "name": "Custom Orders Section",
     "tag": "section",
     "class": "section",
-    "settings": [
-      {
-        "type": "text",
-        "id": "main_title",
-        "default": "Multicolumn",
-        "label": "Main Title"
-      }, {
-        "type": "text",
-        "id": "main_content",
-        "default": "Multicolumn",
-        "label": "Main Content"
-      }, {
-        "type": "text",
-        "id": "main_button_text",
-        "default": "Multicolumn",
-        "label": "Button Text"
-      }, {
-        "type": "url",
-        "id": "main_button_link",
-        "label": "Button Url"
-      }
-    ],
+    "settings": [],
     "blocks": [
       {
         "type": "column",
