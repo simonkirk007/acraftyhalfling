@@ -381,3 +381,6 @@ section.product-sec .main-title h1, section.product-sec .main-title p {
 .product-box .product-img {
     margin-bottom: 50px;
 }
+.product-box {
+    margin-bottom: 80px;
+}
