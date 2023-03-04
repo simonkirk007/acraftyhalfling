@@ -1,0 +1,91 @@
+<section class="order-sec">
+  <div class="container">
+    <div class="order-wrap">
+      <div class="row">
+        {%- for block in section.blocks -%}
+          <div class="col-lg-4 col-12">
+            <div class="order-inner">
+              <div class="img-wrap">
+                <img
+                  src="{{ block.settings.image | image_url }}"
+                  alt=""
+                  class="main-img">
+              </div>
+              <div class="cont-wrap">
+                {% if block.settings.order_title %}
+                  <h2>{{ block.settings.order_title | escape }}</h2>
+                {% endif %}
+                {% if block.settings.order_text %}
+                  {{ block.settings.order_text }}
+                {% endif %}
+                <a href="{{ block.settings.button_link }}" class="button button--primary">{{ block.settings.button_text }}</a>
+              </div>
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+
+    </div>
+    {% comment %}
+    <div class="button-wrap center">
+    <a href="{{ section.settings.main_button_link }}" class="button button--primary">{{ section.settings.main_button_text | escape }}</a>
+    </div>  
+    {% endcomment %}</div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Custom Orders Section",
+    "tag": "section",
+    "class": "section",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+          },
+          {
+            "type": "text",
+            "id": "order_title",
+            "default": "Multicolumn",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "order_text",
+            "default": "<p>Multicolumn</p>",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "button_title",
+            "default": "Multicolumn",
+            "label": "Button Text"
+          }, {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Orders Section",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
