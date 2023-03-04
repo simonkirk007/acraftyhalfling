@@ -261,10 +261,11 @@
         "template--18049197867294__b6a66119-cbfd-472a-a4fb-806b74a86219-16779495812f30b906-0": {
           "type": "column",
           "settings": {
-            "order_title": "Multicolumn",
-            "order_text": "<p>Multicolumn<\/p>",
-            "button_title": "Multicolumn",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/order2.png",
+            "order_title": "Join The Adventure",
+            "order_text": "<p>Become an exclusive adventurer today and receive super cute RPG Pins & Stickers every month!<br\/>Discounts & monthly perks come with every membership.<\/p>",
+            "button_title": "Shop",
+            "button_link": "shopify:\/\/collections\/all"
           }
         },
         "template--18049197867294__b6a66119-cbfd-472a-a4fb-806b74a86219-16779495812f30b906-1": {
