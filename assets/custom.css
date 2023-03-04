@@ -386,3 +386,21 @@ section.product-sec .main-title h1, section.product-sec .main-title p {
 .product-box {
     margin-bottom: 80px;
 }
+
+section.order-sec {
+    padding: 60px 0 80px;
+    background-color: #000;
+    background: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/pro-back.png?v=1677942774) center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.cont-wrap h2 {
+    color: #fff;
+    font-size: 100px;
+    line-height: 80px;
+}
+
+.cont-wrap p {
+    font-size: 22px;
+}
