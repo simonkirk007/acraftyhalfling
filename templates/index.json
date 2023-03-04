@@ -261,60 +261,35 @@
         "collection": "home-page"
       }
     },
-    "b6a66119-cbfd-472a-a4fb-806b74a86219": {
-      "type": "custom-category",
+    "937275ba-06ea-43e3-8330-046e49e643dc": {
+      "type": "custom-order",
       "blocks": {
-        "template--18049197867294__b6a66119-cbfd-472a-a4fb-806b74a86219-16779495812f30b906-0": {
+        "template--18049197867294__937275ba-06ea-43e3-8330-046e49e643dc-1677950822ae38301e-0": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/order2.png",
+            "order_title": "Join The Adventure",
+            "order_text": "<p>Become an exclusive adventurer today and receive super cute RPG Pins & Stickers every month!<br\/>Discounts & monthly perks come with every membership.<\/p>",
+            "button_title": "Shop Now",
             "button_link": "shopify:\/\/collections\/all"
           }
         },
-        "template--18049197867294__b6a66119-cbfd-472a-a4fb-806b74a86219-16779495812f30b906-1": {
+        "template--18049197867294__937275ba-06ea-43e3-8330-046e49e643dc-1677950822ae38301e-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/order1.png",
+            "order_title": "",
+            "order_text": "<p>Collect Kawaii RPG pins from our growing collection - Every month a new Hero, Companion and Loot Item is released.<br\/><br\/>Don't have a monthly membership? Don't worry - you can shop all previous pins now!<\/p>",
+            "button_title": "Custom Order",
             "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
       "block_order": [
-        "template--18049197867294__b6a66119-cbfd-472a-a4fb-806b74a86219-16779495812f30b906-0",
-        "template--18049197867294__b6a66119-cbfd-472a-a4fb-806b74a86219-16779495812f30b906-1"
+        "template--18049197867294__937275ba-06ea-43e3-8330-046e49e643dc-1677950822ae38301e-0",
+        "template--18049197867294__937275ba-06ea-43e3-8330-046e49e643dc-1677950822ae38301e-1"
       ],
       "settings": {
-        "main_title": "Multicolumn",
-        "main_content": "asdfsdf",
-        "main_button_text": "Multicolumn",
-        "main_button_link": ""
-      }
-    },
-    "0f8b47d4-58e1-4ccf-93fe-2465be1b4717": {
-      "type": "custom-category",
-      "blocks": {
-        "template--18049197867294__0f8b47d4-58e1-4ccf-93fe-2465be1b4717-16779495812f30b906-0": {
-          "type": "column",
-          "settings": {
-            "button_link": ""
-          }
-        },
-        "template--18049197867294__0f8b47d4-58e1-4ccf-93fe-2465be1b4717-16779495812f30b906-1": {
-          "type": "column",
-          "settings": {
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18049197867294__0f8b47d4-58e1-4ccf-93fe-2465be1b4717-16779495812f30b906-0",
-        "template--18049197867294__0f8b47d4-58e1-4ccf-93fe-2465be1b4717-16779495812f30b906-1"
-      ],
-      "settings": {
-        "main_title": "Multicolumn",
-        "main_content": "Multicolumn",
-        "main_button_text": "Multicolumn",
-        "main_button_link": ""
       }
     }
   },
@@ -325,7 +300,6 @@
     "222904a1-4ae0-411d-bcf9-b4103ce05918",
     "3bae5b73-ae94-4f80-9b2d-aea38434bc9a",
     "c0d5860c-e3ef-4817-b284-5166b2c5ae82",
-    "b6a66119-cbfd-472a-a4fb-806b74a86219",
-    "0f8b47d4-58e1-4ccf-93fe-2465be1b4717"
+    "937275ba-06ea-43e3-8330-046e49e643dc"
   ]
 }
