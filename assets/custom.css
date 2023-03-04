@@ -337,3 +337,37 @@ section.collection-sec.social-sec .main-title h1 img {
 .social-sec .collection-wrap .row {
     position: relative;
 }
+
+section.product-sec {
+    padding: 60px 0;
+    background-color: #000;
+}
+
+section.product-sec .main-title h1, section.product-sec .main-title p {
+    color: #fff;
+}
+
+.product-box .product-img img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.product-box .product-con h3 a {
+    font-size: 61px;
+    color: goldenrod;
+    text-decoration: unset;
+}
+
+.product-box .product-con .price {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Sarcastic Inline';
+}
+
+.product-box .product-con .price::before {
+    content: 'USD';
+    margin-right: 5px;
+}
