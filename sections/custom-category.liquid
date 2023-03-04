@@ -1,4 +1,4 @@
-<section class="collection-sec cat-sec">
+<section class="order-sec">
   <div class="main-title">
     <h1>
       <img src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-top.png?v=1677772916" alt="">
@@ -9,30 +9,25 @@
     {%- endif -%}
   </div>
   <div class="container">
-    <div class="collection-wrap">
-      <div class="row justify-content-center align-items-center">
-        {%- for block in section.blocks -%}
+    <div class="order-wrap">
+      {%- for block in section.blocks -%}
+        <div class="row">
           <div class="col-lg-4 col-12">
             <div class="collection-img">
-              <a href="{{ block.settings.button_link }}">
+              <div class="img-wrap">
                 <img
                   src="{{ block.settings.image | image_url }}"
                   alt=""
                   class="main-img">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/cat-back.png?v=1677775937"
-                  alt=""
-                  class="bg-img">
-
-              </a>
-              <a href="{{ block.settings.button_link }}" class="cat-title">
-                <h2>{{ block.settings.cat_title | escape }}</h2>
-              </a>
+              </div>
+              <h2>{{ block.settings.order_title | escape }}</h2>
+              {{ block.settings.order_text }}
+              <a href="{{ block.settings.button_link }}" class="cat-title">{{ block.settings.button_link }}</a>
             </div>
           </div>
-        {%- endfor -%}
+        </div>
+      {%- endfor -%}
 
-      </div>
     </div>
     <div class="button-wrap center">
       <a href="{{ section.settings.main_button_link }}" class="button button--primary">{{ section.settings.main_button_text | escape }}</a>
@@ -43,7 +38,7 @@
 
 {% schema %}
   {
-    "name": "Custom Category Section",
+    "name": "Custom Orders Section",
     "tag": "section",
     "class": "section",
     "settings": [
@@ -77,26 +72,37 @@
             "type": "image_picker",
             "id": "image",
             "label": "t:sections.multicolumn.blocks.column.settings.image.label"
-          }, {
+          },
+          {
             "type": "text",
-            "id": "cat_title",
+            "id": "order_title",
             "default": "Multicolumn",
             "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "order_text",
+            "default": "<p>Multicolumn</p>",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "button_title",
+            "default": "Multicolumn",
+            "label": "Button Text"
           }, {
             "type": "url",
             "id": "button_link",
-            "label": "t:sections.multicolumn.settings.button_link.label"
+            "label": "Button Link"
           }
         ]
       }
     ],
     "presets": [
       {
-        "name": "Custom Category Section",
+        "name": "Custom Orders Section",
         "blocks": [
           {
-            "type": "column"
-          }, {
             "type": "column"
           }, {
             "type": "column"
