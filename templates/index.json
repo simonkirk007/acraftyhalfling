@@ -167,10 +167,6 @@
         "723d84a4-ae61-48f1-a93a-fbd0c711b2c8"
       ],
       "settings": {
-        "main_title": "shop by category",
-        "main_content": "Our brand focuses on clever ways to incorporate fantasy into everyday life.",
-        "main_button_text": "Shop Now",
-        "main_button_link": "shopify:\/\/collections\/all"
       }
     },
     "3bae5b73-ae94-4f80-9b2d-aea38434bc9a": {
@@ -271,10 +267,11 @@
         "template--18049197867294__b6a66119-cbfd-472a-a4fb-806b74a86219-16779495812f30b906-1": {
           "type": "column",
           "settings": {
-            "order_title": "Multicolumn",
-            "order_text": "<p>Multicolumn<\/p>",
-            "button_title": "Multicolumn",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/order1.png",
+            "order_title": "",
+            "order_text": "<p>Collect Kawaii RPG pins from our growing collection - Every month a new Hero, Companion and Loot Item is released.<br\/><br\/>Don't have a monthly membership? Don't worry - you can shop all previous pins now!<\/p>",
+            "button_title": "Custom Orders",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -283,10 +280,6 @@
         "template--18049197867294__b6a66119-cbfd-472a-a4fb-806b74a86219-16779495812f30b906-1"
       ],
       "settings": {
-        "main_title": "Multicolumn",
-        "main_content": "asdfsdf",
-        "main_button_text": "Multicolumn",
-        "main_button_link": ""
       }
     }
   },
