@@ -34,7 +34,7 @@
                   <span>USD {{ product.price | money }}</span>
                 {% endif %}
               </div>
-              <a href="{{ product.url }}" class="btn-link">Shop Now</a>
+              {% comment %}<a href="{{ product.url }}" class="btn-link">Shop Now</a>{{ product.url }}{% endcomment %}
             </div>
           </div>
         </div>
