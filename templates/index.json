@@ -297,7 +297,8 @@
         "main_title": "Multicolumn",
         "main_content": "Multicolumn",
         "main_button_text": "Multicolumn",
-        "main_button_link": ""
+        "main_button_link": "",
+        "collection": "home-page"
       }
     }
   },
