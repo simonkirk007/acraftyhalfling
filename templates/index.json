@@ -299,6 +299,43 @@
         "main_button_text": "Multicolumn",
         "main_button_link": ""
       }
+    },
+    "a279611d-7c19-4cfe-af9a-162d72d0cefa": {
+      "type": "custom-products",
+      "blocks": {
+        "template--18049197867294__a279611d-7c19-4cfe-af9a-162d72d0cefa-1677938223301323ec-0": {
+          "type": "column",
+          "settings": {
+            "cat_title": "Multicolumn",
+            "button_link": ""
+          }
+        },
+        "template--18049197867294__a279611d-7c19-4cfe-af9a-162d72d0cefa-1677938223301323ec-1": {
+          "type": "column",
+          "settings": {
+            "cat_title": "Multicolumn",
+            "button_link": ""
+          }
+        },
+        "template--18049197867294__a279611d-7c19-4cfe-af9a-162d72d0cefa-1677938223301323ec-2": {
+          "type": "column",
+          "settings": {
+            "cat_title": "Multicolumn",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18049197867294__a279611d-7c19-4cfe-af9a-162d72d0cefa-1677938223301323ec-0",
+        "template--18049197867294__a279611d-7c19-4cfe-af9a-162d72d0cefa-1677938223301323ec-1",
+        "template--18049197867294__a279611d-7c19-4cfe-af9a-162d72d0cefa-1677938223301323ec-2"
+      ],
+      "settings": {
+        "main_title": "Multicolumn",
+        "main_content": "Multicolumn",
+        "main_button_text": "Multicolumn",
+        "main_button_link": ""
+      }
     }
   },
   "order": [
@@ -308,6 +345,7 @@
     "222904a1-4ae0-411d-bcf9-b4103ce05918",
     "3bae5b73-ae94-4f80-9b2d-aea38434bc9a",
     "75fa4203-254a-4683-ae9a-d7c86c6c3da0",
-    "c0d5860c-e3ef-4817-b284-5166b2c5ae82"
+    "c0d5860c-e3ef-4817-b284-5166b2c5ae82",
+    "a279611d-7c19-4cfe-af9a-162d72d0cefa"
   ]
 }
