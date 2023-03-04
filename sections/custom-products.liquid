@@ -1,0 +1,110 @@
+{% render 'card-product' %}
+
+<section class="collection-sec cat-sec">
+  <div class="main-title">
+    <h1>
+      <img src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-top.png?v=1677772916" alt="">
+      {{ section.settings.main_title | escape }}
+    </h1>
+    {%- if section.settings.main_content != blank -%}
+      <p>{{ section.settings.main_content | escape }}</p>
+    {%- endif -%}
+  </div>
+  <div class="container">
+    <div class="collection-wrap">
+      <div class="row justify-content-center align-items-center">
+        {%- for block in section.blocks -%}
+          <div class="col-lg-4 col-12">
+            <div class="collection-img">
+              <a href="{{ block.settings.button_link }}">
+                <img
+                  src="{{ block.settings.image | image_url }}"
+                  alt=""
+                  class="main-img">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/cat-back.png?v=1677775937"
+                  alt=""
+                  class="bg-img">
+
+              </a>
+              <a href="{{ block.settings.button_link }}" class="cat-title">
+                <h2>{{ block.settings.cat_title | escape }}</h2>
+              </a>
+            </div>
+          </div>
+        {%- endfor -%}
+
+      </div>
+    </div>
+    <div class="button-wrap center">
+      <a href="{{ section.settings.main_button_link }}" class="button button--primary">{{ section.settings.main_button_text | escape }}</a>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Custom Product Section",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "main_title",
+        "default": "Multicolumn",
+        "label": "Main Title"
+      }, {
+        "type": "text",
+        "id": "main_content",
+        "default": "Multicolumn",
+        "label": "Main Content"
+      }, {
+        "type": "text",
+        "id": "main_button_text",
+        "default": "Multicolumn",
+        "label": "Button Text"
+      }, {
+        "type": "url",
+        "id": "main_button_link",
+        "label": "Button Url"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+          }, {
+            "type": "text",
+            "id": "cat_title",
+            "default": "Multicolumn",
+            "label": "Title"
+          }, {
+            "type": "url",
+            "id": "button_link",
+            "label": "t:sections.multicolumn.settings.button_link.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Product Section",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
