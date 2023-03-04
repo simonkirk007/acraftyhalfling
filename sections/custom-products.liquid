@@ -28,10 +28,10 @@
               </h3>
               <div class="price">
                 {% if product.compare_at_price > product.price %}
-                  <span>{{ product.price | money }}</span>
+                  <span>USD {{ product.price | money }}</span>
                   <del>{{ product.compare_at_price | money }}</del>
                 {% else %}
-                  <span>{{ product.price | money }}</span>
+                  <span>USD {{ product.price | money }}</span>
                 {% endif %}
               </div>
               <a href="{{ product.url }}" class="btn-link">Shop Now</a>
