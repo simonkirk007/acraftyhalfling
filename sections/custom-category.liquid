@@ -12,9 +12,13 @@
                   class="main-img">
               </div>
               <div class="cont-wrap">
-                <h2>{{ block.settings.order_title | escape }}</h2>
-                {{ block.settings.order_text }}
-                <a href="{{ block.settings.button_link }}" class="button button--primary">{{ block.settings.button_link }}</a>
+                {% if block.settings.order_title %}
+                  <h2>{{ block.settings.order_title | escape }}</h2>
+                {% endif %}
+                {% if block.settings.order_text %}
+                  {{ block.settings.order_text }}
+                {% endif %}
+                <a href="{{ block.settings.button_link }}" class="button button--primary">{{ block.settings.button_text }}</a>
               </div>
             </div>
           </div>
