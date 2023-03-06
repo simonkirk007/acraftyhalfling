@@ -611,9 +611,6 @@ product-recommendations.related-products {
     font-size: 60px;
     color: #daa520;
     text-decoration: unset;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     display: block;
     line-height: 45px;
 }
