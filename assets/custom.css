@@ -594,7 +594,7 @@ form#ContactForm textarea {
 
 .product-card-wrapper .card__content .price {
     font-size: 50px;
-    color: #000;
+    color: #fff;
     font-family: Sarcastic Inline;
 }
 .footer-block .footer-block__details-content p {
@@ -655,4 +655,14 @@ product-recommendations.related-products {
 
 .product .quantity button svg {
     width: 18px;
+}
+div#ProductGridContainer {
+    background-color: #000;
+    margin-bottom: -40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+div#ProductGridContainer .card {
+    background-color: transparent !important;
 }
