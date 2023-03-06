@@ -431,3 +431,45 @@ section.order-sec {
     width: 100%;
     height: auto;
 }
+section.ship-sec {
+    background-image: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/bg-white.png?v=1677507140);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0 50px;
+}
+
+section.ship-sec .cont-wrap h2 {
+    color: #000;
+    font-size: 60px;
+}
+
+section.ship-sec .cont-wrap p {
+    font-size: 22px;
+    color: #000;
+}
+
+section.ship-sec .cont-wrap {
+    text-align: center;
+}
+
+section.ship-sec .img-wrap img {
+    width: auto;
+    height: auto;
+}
+
+section.ship-sec .img-wrap {
+    text-align: center;
+}
+
+section.ship-sec .ship-inner::before {
+    content: '';
+    background-image: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-left.png?v=1677772916);
+    position: absolute;
+    height: 100%;
+    width: 20px;
+}
+
+section.ship-sec .ship-inner {
+    position: relative;
+}
