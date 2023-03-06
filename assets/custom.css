@@ -1,4 +1,4 @@
-a.button.button--primary:hover {
+.button.button--primary:hover {
     color: #000;
 }
 @media (min-width: 1400px){
@@ -39,7 +39,7 @@ header.header--middle-left {
     padding: 15px 0 !important;
 }
 
-a.button.button--primary {
+.button.button--primary {
     background-image: url('http://cdn.shopify.com/s/files/1/0715/3156/1246/files/btn-bg.png?v=1677357397&width=500');
     background-color: unset;
     background-size: cover;
@@ -48,8 +48,8 @@ a.button.button--primary {
     height: 70px;
     font-size: 38px;
 }
-a.button.button--primary::after, 
-a.button.button--primary::before {
+.button.button--primary::after, 
+.button.button--primary::before {
     content: '';
     background-image: url('//cdn.shopify.com/s/files/1/0715/3156/1246/files/btn-border_a3235cf4-e127-447a-8f2c-30420d10d284.png?v=1677428800&width=500');
     position: absolute;
@@ -63,11 +63,11 @@ a.button.button--primary::before {
     z-index: 99;
     background-size: auto;
 }
-a.button.button--primary::before {
+.button.button--primary::before {
     right: auto;
     left: -14px;
 }
-a.button.button--primary:hover::after{
+.button.button--primary:hover::after{
     box-shadow: unset;
 }
 
