@@ -30,7 +30,7 @@
   class="title-wrap"
   style="background: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-bga.png?v=1678090537) center no-repeat;background-size: cover;">
   <div
-    class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
+    class="collection-hero">
     <div
       class="collection-hero__inner page-width">
       <div
@@ -67,7 +67,7 @@
           {%- if collection.image.width >= 1500 -%}
             {{ collection.image | image_url: width: 1500 }} 1500w,{%- endif -%}
           {{ collection.image | image_url }} {{ collection.image.width }}w
-                                                  "
+                                                            "
           src="{{ collection.image | image_url: width: 750 }}"
           sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc(50vw - 130px), calc(50vw - 55px)"
           alt=""
