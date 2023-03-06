@@ -291,6 +291,42 @@
       ],
       "settings": {
       }
+    },
+    "857729cb-ae42-455a-9617-53d3a4d5ec04": {
+      "type": "custom-shipping",
+      "blocks": {
+        "template--18049197867294__857729cb-ae42-455a-9617-53d3a4d5ec04-167809072999bfbe94-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free.png",
+            "order_title": "Free Shipping",
+            "order_text": "<p>Free shipping on UK orders over £12 and Worldwide orders over £80. (Excluding some apparel)<\/p>"
+          }
+        },
+        "template--18049197867294__857729cb-ae42-455a-9617-53d3a4d5ec04-167809072999bfbe94-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/family.png",
+            "order_title": "Family Run",
+            "order_text": "<p>One artist & a family ran business guarantees you to get a personal experience and unique products to the Stami Studios brand.<\/p>"
+          }
+        },
+        "template--18049197867294__857729cb-ae42-455a-9617-53d3a4d5ec04-167809072999bfbe94-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collect.png",
+            "order_title": "Collect Stars",
+            "order_text": "<p>Collect stars (the Stami currency) with every purchase and spend them for discount on future <br\/>purchases!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18049197867294__857729cb-ae42-455a-9617-53d3a4d5ec04-167809072999bfbe94-0",
+        "template--18049197867294__857729cb-ae42-455a-9617-53d3a4d5ec04-167809072999bfbe94-1",
+        "template--18049197867294__857729cb-ae42-455a-9617-53d3a4d5ec04-167809072999bfbe94-2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -300,6 +336,7 @@
     "222904a1-4ae0-411d-bcf9-b4103ce05918",
     "3bae5b73-ae94-4f80-9b2d-aea38434bc9a",
     "c0d5860c-e3ef-4817-b284-5166b2c5ae82",
-    "937275ba-06ea-43e3-8330-046e49e643dc"
+    "937275ba-06ea-43e3-8330-046e49e643dc",
+    "857729cb-ae42-455a-9617-53d3a4d5ec04"
   ]
 }
