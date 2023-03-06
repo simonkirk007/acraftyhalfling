@@ -183,6 +183,12 @@ footer .social-wrap {
 
 .footer__content-bottom .footer__content-bottom-wrapper>div {
     width: 100%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.footer__content-bottom .footer__content-bottom-wrapper>div p {
+    margin: 0;
 }
 
 .footer__content-bottom .footer__content-bottom-wrapper {
@@ -590,4 +596,7 @@ form#ContactForm textarea {
     font-size: 50px;
     color: #000;
     font-family: Sarcastic Inline;
+}
+.footer-block .footer-block__details-content p {
+    font-size: 14px;
 }
