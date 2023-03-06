@@ -436,7 +436,7 @@ section.ship-sec {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 50px 0 160px;
+    padding: 50px 0px;
 }
 
 section.ship-sec .cont-wrap h2 {
@@ -475,4 +475,8 @@ section.ship-sec .ship-inner img.side-border {
 }
 section.ship-sec .ship-wrap .col-12:first-child img.side-border {
     display: none;
+}
+section.ship-sec .ship-wrap {
+    border-top: 3px solid #ddd;
+    padding-top: 50px;
 }
