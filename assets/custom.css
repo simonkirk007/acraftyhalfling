@@ -497,3 +497,15 @@ slideshow-component .slideshow__controls button.slider-counter__link.slider-coun
     filter: unset;
     opacity: 1;
 }
+form#ContactForm input, form#ContactForm textarea {border: 1px solid #000;}
+
+form#ContactForm label {
+    top: 10px;
+    left: 15px;
+}
+
+form#ContactForm 
+ .field__input:focus~.field__label {
+    top: 1px;
+    left: 15px;
+}
