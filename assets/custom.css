@@ -629,3 +629,28 @@ product-recommendations.related-products {
     font-size: 18px;
     color: #000;
 }
+.product .caption-with-letter-spacing {
+    font-size: 22px;
+}
+
+.product .quantity input, .product .quantity button {
+    border: 1px solid #000;
+    padding: 10px 10px;
+}
+
+.product .quantity input {
+    margin: 0 15px;
+}
+
+.product .quantity button:hover {
+    background-color: #000;
+}
+
+.product .quantity button:hover svg {
+    opacity: 1;
+    color: #fff;
+}
+
+.product .quantity button svg {
+    width: 18px;
+}
