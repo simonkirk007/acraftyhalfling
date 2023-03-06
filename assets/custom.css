@@ -564,3 +564,30 @@ form#ContactForm textarea {
 .collection.page-width {
     padding: 0;
 }
+
+.product-card-wrapper .card__content h3 a {
+    font-size: 60px;
+    color: #daa520;
+    text-decoration: unset;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 45px;
+    display: block;
+}
+
+
+.product-card-wrapper .card__content .card__information {
+    width: auto;
+    overflow: hidden;
+}
+
+.product-card-wrapper .card {
+    border: unset;
+}
+
+.product-card-wrapper .card__content .price {
+    font-size: 50px;
+    color: #000;
+    font-family: Sarcastic Inline;
+}
