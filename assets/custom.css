@@ -473,3 +473,6 @@ section.ship-sec .ship-inner img.side-border {
     bottom: 0;
     left: -15px;
 }
+section.ship-sec .ship-wrap .col-12:first-child img.side-border {
+    display: none;
+}
