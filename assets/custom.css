@@ -600,3 +600,32 @@ form#ContactForm textarea {
 .footer-block .footer-block__details-content p {
     font-size: 14px;
 }
+product-recommendations.related-products {
+    display: none;
+}
+product-recommendations.related-products {
+    display: none;
+}
+
+.product .product__title h1 {
+    font-size: 60px;
+    color: #daa520;
+    text-decoration: unset;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    line-height: 45px;
+}
+
+.product .price {
+    font-size: 50px;
+    color: #000;
+    font-family: Sarcastic Inline;
+    line-height: 35px;
+}
+
+.product .product__description {
+    font-size: 18px;
+    color: #000;
+}
