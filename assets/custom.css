@@ -666,3 +666,11 @@ div#ProductGridContainer {
 div#ProductGridContainer .card {
     background-color: transparent !important;
 }
+price-range.facets__price .field label {
+    display: none;
+}
+
+price-range.facets__price .field input, price-range.facets__price .field input:focus {
+    padding: 10px 10px;
+    border: 1px solid;
+}
