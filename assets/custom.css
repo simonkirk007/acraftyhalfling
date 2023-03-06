@@ -607,6 +607,11 @@ product-recommendations.related-products {
     display: none;
 }
 
+.product {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 .product .product__title h1 {
     font-size: 60px;
     color: #daa520;
