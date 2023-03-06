@@ -544,4 +544,5 @@ form#ContactForm textarea {
 .grid--3-col-desktop .grid__item {
     width: 33.33%;
     max-width: 33.33%;
+    padding: 15px 15px;
 }
