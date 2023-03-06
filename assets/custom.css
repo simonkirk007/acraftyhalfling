@@ -499,13 +499,24 @@ slideshow-component .slideshow__controls button.slider-counter__link.slider-coun
 }
 form#ContactForm input, form#ContactForm textarea {border: 1px solid #000;}
 
-form#ContactForm label {
-    top: 10px;
-    left: 15px;
+form#ContactForm label,
+.form__label {
+    display: none;
 }
 
 form#ContactForm 
  .field__input:focus~.field__label {
     top: 1px;
     left: 15px;
+}
+.contact {
+    padding: 100px 0;
+    max-width: 650px;
+    text-align: center;
+}
+
+.contact button.button.button--primary {font-family: Sarcastic Inline,sans-serif;}
+.field__input::placeholder,
+.customer .field input::placeholder {
+    opacity: 1;
 }
