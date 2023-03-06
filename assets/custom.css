@@ -556,7 +556,10 @@ form#ContactForm textarea {
     padding: 15px 5px;
 }
 .card__media, .card .media {
-    position: relative;
+    position: relative !important;
+}
+.card--media .card__inner .card__content{
+    display: none;
 }
 .collection.page-width {
     padding: 0;
