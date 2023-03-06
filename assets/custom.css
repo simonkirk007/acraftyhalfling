@@ -451,6 +451,8 @@ section.ship-sec .cont-wrap p {
 
 section.ship-sec .cont-wrap {
     text-align: center;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 section.ship-sec .img-wrap img {
@@ -462,14 +464,12 @@ section.ship-sec .img-wrap {
     text-align: center;
 }
 
-section.ship-sec .ship-inner::before {
-    content: '';
-    background-image: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-left.png?v=1677772916);
-    position: absolute;
-    height: 100%;
-    width: 20px;
-}
-
 section.ship-sec .ship-inner {
     position: relative;
+    height: 100%;
+}
+section.ship-sec .ship-inner img.side-border {
+    position: absolute;
+    bottom: 0;
+    left: -15px;
 }
