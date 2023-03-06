@@ -539,3 +539,9 @@ form#ContactForm textarea {
     object-position: center;
     border-radius: 20px;
 }
+
+
+.grid--3-col-desktop .grid__item {
+    width: 33.33%;
+    max-width: 33.33%;
+}
