@@ -497,8 +497,12 @@ slideshow-component .slideshow__controls button.slider-counter__link.slider-coun
     filter: unset;
     opacity: 1;
 }
-form#ContactForm input, form#ContactForm textarea {border: 1px solid #000;}
-
+form#ContactForm input, form#ContactForm textarea {
+    border: 1px solid #000;
+    height: 60px;
+    padding: 15px 15px;
+    font-size: 22px;
+}
 form#ContactForm label,
 .form__label {
     display: none;
@@ -519,4 +523,7 @@ form#ContactForm
 .field__input::placeholder,
 .customer .field input::placeholder {
     opacity: 1;
+}
+form#ContactForm textarea {
+    height: 150px;
 }
