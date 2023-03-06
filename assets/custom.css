@@ -436,7 +436,7 @@ section.ship-sec {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 50px 0px;
+    padding: 50px 0px 160px;
 }
 
 section.ship-sec .cont-wrap h2 {
