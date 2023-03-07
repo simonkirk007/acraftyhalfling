@@ -48,13 +48,11 @@
 
 <div class="title-wrap" style="background: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-bga.png?v=1678090537) center no-repeat;background-size: cover;">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
-    <h1 class="main-page-title page-title h0">
-      {% if section.settings.title %}
-        <h2>{{ section.settings.title | escape }}</h2>
-      {% else %}
-        {{ page.title | escape }}
-      {% endif %}
-    </h1>
+    {% if section.settings.title %}
+      <h1 class="main-page-title page-title h0">{{ section.settings.title | escape }}</h1>
+    {% else %}
+      <h1 class="main-page-title page-title h0">{{ page.title | escape }}</h1>
+    {% endif %}
     {% if section.settings.banner_text %}
       {{ section.settings.banner_text }}
     {% endif %}
