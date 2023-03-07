@@ -51,6 +51,9 @@
     <h1 class="main-page-title page-title h0">
       {{ page.title | escape }}
     </h1>
+    {% if block.settings.banner_text %}
+      {{ block.settings.banner_text }}
+    {% endif %}
     <div class="rte">
       {{ page.content }}
     </div>
@@ -84,6 +87,11 @@
         "unit": "px",
         "label": "t:sections.all.padding.padding_bottom",
         "default": 36
+      }, {
+        "type": "richtext",
+        "id": "banner_text",
+        "default": "<p>Multicolumn</p>",
+        "label": "Banner Text"
       }
     ]
   }
