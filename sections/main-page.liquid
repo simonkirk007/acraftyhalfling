@@ -49,7 +49,11 @@
 <div class="title-wrap" style="background: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-bga.png?v=1678090537) center no-repeat;background-size: cover;">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
     <h1 class="main-page-title page-title h0">
-      {{ page.title | escape }}
+      {% if block.settings.banner_title %}
+        <h2>{{ block.settings.banner_title | escape }}</h2>
+      {% else %}
+        {{ page.title | escape }}
+      {% endif %}
     </h1>
     {% if block.settings.banner_text %}
       {{ block.settings.banner_text }}
@@ -69,7 +73,8 @@
       {
         "type": "header",
         "content": "t:sections.all.padding.section_padding_heading"
-      }, {
+      },
+      {
         "type": "range",
         "id": "padding_top",
         "min": 0,
@@ -78,7 +83,8 @@
         "unit": "px",
         "label": "t:sections.all.padding.padding_top",
         "default": 36
-      }, {
+      },
+      {
         "type": "range",
         "id": "padding_bottom",
         "min": 0,
@@ -87,6 +93,12 @@
         "unit": "px",
         "label": "t:sections.all.padding.padding_bottom",
         "default": 36
+      },
+      {
+        "type": "text",
+        "id": "banner_title",
+        "default": "Multicolumn",
+        "label": "Banner Title"
       }, {
         "type": "richtext",
         "id": "banner_text",
