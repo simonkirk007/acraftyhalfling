@@ -108,7 +108,7 @@ MyCustomizerCart.initializeXHRRequestsInterceptors = () => {
 
   function openReplacement() {
     this.addEventListener('load', function () {
-      if (this._url.match(MyCustomizerCart.cartURLRegex) != null) {
+      if (this._url?.match(MyCustomizerCart.cartURLRegex) != null) {
         MyCustomizerCart.cart = JSON.parse(this.response)
       }
     })
