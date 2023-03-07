@@ -49,8 +49,8 @@
 <div class="title-wrap" style="background: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-bga.png?v=1678090537) center no-repeat;background-size: cover;">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
     <h1 class="main-page-title page-title h0">
-      {% if block.settings.banner_title %}
-        <h2>{{ block.settings.banner_title | escape }}</h2>
+      {% if block.settings.title %}
+        <h2>{{ block.settings.title | escape }}</h2>
       {% else %}
         {{ page.title | escape }}
       {% endif %}
@@ -96,7 +96,7 @@
       },
       {
         "type": "text",
-        "id": "banner_title",
+        "id": "title",
         "default": "Multicolumn",
         "label": "Banner Title"
       }, {
