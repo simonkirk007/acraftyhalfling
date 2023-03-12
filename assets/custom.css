@@ -752,3 +752,6 @@ h1.collection-hero__title {
     outline-offset: unset !important;
     box-shadow: unset !important;
 }
+.facets-vertical.page-width {
+    padding: 0 !important;
+}
