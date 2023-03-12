@@ -548,12 +548,12 @@ form#ContactForm textarea {
     position: relative;
 }
 
-.card .card__inner .card__media {
+/* .card .card__inner .card__media {
     margin-bottom: 50px;
     padding: 30px;
     background: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/pro-img.png?v=1677942773) center no-repeat #000;
     background-size: contain;
-}
+} */
 
 
 .grid--3-col-desktop .grid__item {
@@ -594,7 +594,7 @@ form#ContactForm textarea {
 
 .product-card-wrapper .card__content .price {
     font-size: 50px;
-    color: #fff;
+    color: #000;
     font-family: Sarcastic Inline;
 }
 .footer-block .footer-block__details-content p {
@@ -657,7 +657,6 @@ product-recommendations.related-products {
     width: 18px;
 }
 div#ProductGridContainer {
-    background-color: #000;
     margin-bottom: -40px;
     padding-bottom: 50px;
     padding-top: 50px;
