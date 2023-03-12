@@ -741,3 +741,6 @@ h1.collection-hero__title {
     z-index: 99;
     background-size: auto;
 }
+.collection-hero {
+    padding: 100px 0;
+}
