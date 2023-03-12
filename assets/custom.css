@@ -711,6 +711,9 @@ h1.collection-hero__title {
 .facet-filters__field div.select select {
     color: #fff;
 }
+.facet-filters__field div.select select option {
+    color: #000;
+}
 
 .facet-filters__field div.select::after {
     content: "";
@@ -743,4 +746,9 @@ h1.collection-hero__title {
 }
 .collection-hero {
     padding: 100px 0;
+}
+.facet-filters__sort:focus-visible {
+    outline: unset !important;
+    outline-offset: unset !important;
+    box-shadow: unset !important;
 }
