@@ -27,13 +27,13 @@
     data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}"
   >
     {% if recommendations.performed and recommendations.products_count > 0 %}
-      <h2 class="related-products__heading {{ section.settings.heading_size }}">
-        {{ section.settings.heading | escape }}
-      </h2>
+      <div class="main-title">
+        <h1>
+          {{ section.settings.heading | escape }}
+        </h1>
+      </div>
       <ul
-        class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
-        role="list"
-      >
+        class="grid" role="list">
         {% for recommendation in recommendations.products %}
           <li class="grid__item">
             {% render 'card-product',
@@ -226,7 +226,7 @@
 
 <script>
   jQuery(document).ready(function(){
-    jQuery('.related-products ul.grid.product-grid').slick({
+    jQuery('.related-products ul.grid').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
