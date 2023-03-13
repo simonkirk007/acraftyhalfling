@@ -82,11 +82,48 @@
       ],
       "settings": {
       }
+    },
+    "f73429e3-cd9c-4ef3-9899-1e5b62005322": {
+      "type": "custom-shipping",
+      "blocks": {
+        "template--18140304343326__f73429e3-cd9c-4ef3-9899-1e5b62005322-1678704087e429e511-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free.png",
+            "order_title": "Free Shipping",
+            "order_text": "<p>Free shipping on UK orders over £12 and Worldwide orders over £80. (Excluding some apparel)<\/p>"
+          }
+        },
+        "template--18140304343326__f73429e3-cd9c-4ef3-9899-1e5b62005322-1678704087e429e511-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/family.png",
+            "order_title": "Family Run",
+            "order_text": "<p>One artist & a family ran business guarantees you to get a personal experience and unique products to the Stami Studios brand.<\/p>"
+          }
+        },
+        "template--18140304343326__f73429e3-cd9c-4ef3-9899-1e5b62005322-1678704087e429e511-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collect.png",
+            "order_title": "Collect Stars",
+            "order_text": "<p>Collect stars (the Stami currency) with every purchase and spend them for discount on future <br\/>purchases!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18140304343326__f73429e3-cd9c-4ef3-9899-1e5b62005322-1678704087e429e511-0",
+        "template--18140304343326__f73429e3-cd9c-4ef3-9899-1e5b62005322-1678704087e429e511-2",
+        "template--18140304343326__f73429e3-cd9c-4ef3-9899-1e5b62005322-1678704087e429e511-1"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "3fb4bccb-d11c-4ecb-8a0a-950d29053a7c",
-    "78c75ebe-1ec7-4908-96ac-b705009042c8"
+    "78c75ebe-1ec7-4908-96ac-b705009042c8",
+    "f73429e3-cd9c-4ef3-9899-1e5b62005322"
   ]
 }
