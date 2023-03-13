@@ -785,3 +785,12 @@ h1.collection-hero__title {
     opacity: 1;
     font-size: 15px;
 }
+.card__content .spr-badge {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.card-information .rating {
+    display: none;
+}
