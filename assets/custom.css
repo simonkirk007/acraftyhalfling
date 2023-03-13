@@ -809,6 +809,27 @@ h1.collection-hero__title {
 .side-bar-custom ul li {
     margin-bottom: 15px;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;s
 }
 
 .side-bar-custom ul {padding: 0;}
+.side-bar-custom ul li span {
+    font-size: 16px;
+}
+
+.side-bar-custom ul li .wrap {
+    display: flex;
+    align-items: center;
+}
+
+.side-bar-custom ul li .wrap img {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+.side-bar-custom ul li .wrap:hover img {
+    opacity: 0.5;
+}
