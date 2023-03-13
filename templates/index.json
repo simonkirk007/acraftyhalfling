@@ -114,34 +114,6 @@
     },
     "c0d5860c-e3ef-4817-b284-5166b2c5ae82": {
       "type": "custom-products",
-      "blocks": {
-        "template--18049197867294__c0d5860c-e3ef-4817-b284-5166b2c5ae82-1677938223301323ec-0": {
-          "type": "column",
-          "settings": {
-            "cat_title": "Multicolumn",
-            "button_link": ""
-          }
-        },
-        "template--18049197867294__c0d5860c-e3ef-4817-b284-5166b2c5ae82-1677938223301323ec-1": {
-          "type": "column",
-          "settings": {
-            "cat_title": "Multicolumn",
-            "button_link": ""
-          }
-        },
-        "template--18049197867294__c0d5860c-e3ef-4817-b284-5166b2c5ae82-1677938223301323ec-2": {
-          "type": "column",
-          "settings": {
-            "cat_title": "Multicolumn",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18049197867294__c0d5860c-e3ef-4817-b284-5166b2c5ae82-1677938223301323ec-0",
-        "template--18049197867294__c0d5860c-e3ef-4817-b284-5166b2c5ae82-1677938223301323ec-1",
-        "template--18049197867294__c0d5860c-e3ef-4817-b284-5166b2c5ae82-1677938223301323ec-2"
-      ],
       "settings": {
         "main_title": "Featured Products",
         "main_content": "",
