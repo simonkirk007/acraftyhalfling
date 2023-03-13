@@ -674,7 +674,8 @@ aside.facets-wrapper {
     padding: 10px 30px;
     max-width: 315px;
 }
-.collection-hero__description.rte {
+.collection-hero__description.rte
+ {
     margin: 0 auto;
     color: #fff;
     text-align: center;
