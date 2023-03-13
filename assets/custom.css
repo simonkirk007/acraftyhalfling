@@ -744,9 +744,9 @@ h1.collection-hero__title {
     z-index: 99;
     background-size: auto;
 }
-.collection-hero {
+/* .collection-hero {
     padding: 100px 0;
-}
+} */
 .facet-filters__sort:focus-visible {
     outline: unset !important;
     outline-offset: unset !important;
@@ -754,4 +754,9 @@ h1.collection-hero__title {
 }
 .facets-vertical.page-width {
     padding: 0 !important;
+}
+@media screen and (min-width: 750px){
+.collection-hero {
+    padding:100px 0;
+}
 }
