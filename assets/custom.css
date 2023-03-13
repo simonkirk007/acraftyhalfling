@@ -762,3 +762,18 @@ h1.collection-hero__title {
     background-position: center;
     background-attachment: fixed;
 }
+.related-products .card {
+    background-color: transparent !important;
+}
+
+.related-products .grid__item {
+    padding: 0 15px;
+}
+
+.related-products .product-card-wrapper .card__content h3 a {
+    color: #daa520;
+}
+
+.related-products .product-card-wrapper .card__content .price {
+    color: #000;
+}
