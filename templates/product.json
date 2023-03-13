@@ -41,6 +41,11 @@
           "settings": {
             "show_dynamic_checkout": true
           }
+        },
+        "49f759a3-8f8a-4a87-b0b1-f463e063e1d5": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -50,7 +55,8 @@
         "variant_picker",
         "description",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "49f759a3-8f8a-4a87-b0b1-f463e063e1d5"
       ],
       "settings": {
         "enable_sticky_info": true,
