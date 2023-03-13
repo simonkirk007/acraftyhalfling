@@ -795,8 +795,10 @@ h1.collection-hero__title {
     display: none;
 }
 .side-bar-custom h3 {
-    font-size: 60px;
+    font-size: 45px;
     color: #daa520;
+    line-height: 41px;
+    margin-bottom: 35px;
 }
 
 .side-bar-custom ul li a {
