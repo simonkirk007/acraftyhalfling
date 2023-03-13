@@ -794,3 +794,21 @@ h1.collection-hero__title {
 .card-information .rating {
     display: none;
 }
+.side-bar-custom h3 {
+    font-size: 60px;
+    color: #daa520;
+}
+
+.side-bar-custom ul li a {
+    font-size: 16px;
+    text-decoration: unset;
+    color: #000;
+    font-family: Poppins        , sans-serif;
+}
+
+.side-bar-custom ul li {
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.side-bar-custom ul {padding: 0;}
