@@ -780,3 +780,8 @@ h1.collection-hero__title {
 .related-products .product-card-wrapper .card__content .price {
     color: #000;
 }
+.product-box .spr-starrating i {
+    color: #fff;
+    opacity: 1;
+    font-size: 15px;
+}
