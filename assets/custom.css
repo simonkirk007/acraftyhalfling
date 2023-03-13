@@ -857,3 +857,41 @@ h1.collection-hero__title {
     max-width: 550px;
     text-align: center;
 }
+body.page\.about-page section.order-sec {
+    background-image: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/abou-0back.png?v=1678703498);
+}
+
+body.page\.about-page .order-wrap .col-12:first-child .order-inner .img-wrap img, body.page\.about-page .order-wrap .col-12:last-child .order-inner .img-wrap img {
+    margin-left: -120px;
+    width: calc(100% + 120px);
+}
+
+body.page\.about-page .order-wrap .col-12:last-child .order-inner .img-wrap img {
+    margin-left: 0;
+    width: calc(100% + 105px);
+}
+
+body.page\.about-page .order-wrap .col-12:last-child .order-inner {
+    padding-left: 20px;
+}
+
+body.page\.about-page .order-wrap .col-12:first-child .order-inner {
+    padding-right: 20px;
+}
+body.page\.about-page section.order-sec {
+    position: relative;
+}
+
+body.page\.about-page section.order-sec::before, body.page\.about-page section.order-sec::after {
+    content: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about1_35ba0e65-d878-4fec-9d0e-320a864092e5.png?v=1678703550);
+    position: absolute;
+    top: 0;
+    left: -100px;
+    transform: translateY(-97%);
+}
+
+body.page\.about-page section.order-sec::after {
+    content: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about2_6b9b33bc-6a40-4ec7-a850-4b09f3c7ade8.png?v=1678703550);
+    left: auto;
+    right: -100px;
+}
