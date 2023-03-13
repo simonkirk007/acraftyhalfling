@@ -1,24 +1,36 @@
-<section class="order-sec">
-  <div class="container">
-    <div class="order-wrap">
-      <div class="row">
+<section
+  class="order-sec">
+  <div
+    class="container">
+    <div
+      class="order-wrap">
+      <div
+        class="row">
         {%- for block in section.blocks -%}
-          <div class="col-lg-6 col-12">
-            <div class="order-inner">
-              <div class="img-wrap">
+          <div
+            class="col-lg-6 col-12">
+            <div
+              class="order-inner">
+              <div
+                class="img-wrap">
                 <img
                   src="{{ block.settings.image | image_url }}"
                   alt=""
                   class="main-img">
               </div>
-              <div class="cont-wrap">
+              <div
+                class="cont-wrap">
                 {% if block.settings.order_title %}
                   <h2>{{ block.settings.order_title | escape }}</h2>
                 {% endif %}
                 {% if block.settings.order_text %}
                   {{ block.settings.order_text }}
                 {% endif %}
-                <a href="{{ block.settings.button_link }}" class="button button--primary">{{ block.settings.button_title }}</a>
+                {% if block.settings.button_link %}
+                  <a
+                    href="{{ block.settings.button_link }}"
+                    class="button button--primary">{{ block.settings.button_title }}</a>
+                {% endif %}
               </div>
             </div>
           </div>
