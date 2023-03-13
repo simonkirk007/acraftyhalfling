@@ -58,8 +58,9 @@
         "template--18140304343326__78c75ebe-1ec7-4908-96ac-b705009042c8-1678703075617f8017-0": {
           "type": "column",
           "settings": {
-            "order_title": "Multicolumn",
-            "order_text": "<p>Multicolumn<\/p>",
+            "image": "shopify:\/\/shop_images\/img-left.png",
+            "order_title": "Join The Adventure",
+            "order_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
             "button_title": "Multicolumn",
             "button_link": ""
           }
@@ -67,9 +68,10 @@
         "template--18140304343326__78c75ebe-1ec7-4908-96ac-b705009042c8-1678703075617f8017-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/imf-right.png",
             "order_title": "Multicolumn",
-            "order_text": "<p>Multicolumn<\/p>",
-            "button_title": "Multicolumn",
+            "order_text": "",
+            "button_title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "button_link": ""
           }
         }
