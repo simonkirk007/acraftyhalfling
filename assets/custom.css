@@ -838,8 +838,10 @@ h1.collection-hero__title {
 }
 
 .facets__summary div>span {font-size: 18px;display: flex;align-items: center;color: #000;
-    font-weight: 500;text-decoration: underline;}
-
+    font-weight: 500;text-decoration: unset;}
+    .facets__summary div>span:hover{
+        text-decoration: none;
+    }
 .facets__summary div>span::before {
     content: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/aaside.png?v=1678701015);
     background-position: center;
