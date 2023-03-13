@@ -159,7 +159,7 @@
             {%- endif -%}
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
-
+            {{card_product.reviews_count}} {{ card_product.reviews_count | pluralize: 'review', 'reviews' }}
             {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}
               {% liquid
                 assign rating_decimal = 0
