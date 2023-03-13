@@ -47,7 +47,18 @@
         {%- if section.settings.show_collection_description -%}
           <div
             class="collection-hero__description rte">{{ collection.description }}</div>
+        {% endif %}
+        <div
+        class="collection-hero__description rte">{{ section.settings.banner_text }}</div>
         {%- endif -%}
+        
+    
+        
+  
+
+
+
+
       </div>
 
       {%- if section.settings.show_collection_image and collection.image -%}
@@ -88,12 +99,20 @@
       {
         "type": "paragraph",
         "content": "t:sections.main-collection-banner.settings.paragraph.content"
-      }, {
+      }, 
+      {
+        "type": "text",
+        "id": "banner_text",
+        "default": true,
+        "label": "Banner Text"
+      },
+      {
         "type": "checkbox",
         "id": "show_collection_description",
         "default": true,
         "label": "t:sections.main-collection-banner.settings.show_collection_description.label"
-      }, {
+      },
+       {
         "type": "checkbox",
         "id": "show_collection_image",
         "default": false,
