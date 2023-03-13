@@ -537,6 +537,7 @@ form#ContactForm textarea {
     width: 100%;
     height: auto;
     margin: 0 !important;
+    background-color: transparent !important;
 }
 
 .card .card__inner .card__media .media img {
