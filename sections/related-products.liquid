@@ -21,35 +21,37 @@
   }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
-  <product-recommendations
-    class="related-products page-width section-{{ section.id }}-padding isolate"
-    data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}"
-  >
-    {% if recommendations.performed and recommendations.products_count > 0 %}
-      <div class="main-title">
-        <h1>
-          <img src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-top.png?v=1677772916" alt="">
-          {{ section.settings.heading | escape }}
-        </h1>
-      </div>
-      <ul
-        class="grid" role="list">
-        {% for recommendation in recommendations.products %}
-          <li class="grid__item">
-            {% render 'card-product',
-              card_product: recommendation,
-              media_aspect_ratio: section.settings.image_ratio,
-              show_secondary_image: section.settings.show_secondary_image,
-              show_vendor: section.settings.show_vendor,
-              show_rating: section.settings.show_rating
-            %}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </product-recommendations>
-</div>
+
+  <div class="relate-wrap">
+    <product-recommendations
+      class="related-products page-width section-{{ section.id }}-padding isolate"
+      data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}"
+    >
+      {% if recommendations.performed and recommendations.products_count > 0 %}
+        <div class="main-title">
+          <h1>
+            <img src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-top.png?v=1677772916" alt="">
+            {{ section.settings.heading | escape }}
+          </h1>
+        </div>
+        <ul
+          class="grid" role="list">
+          {% for recommendation in recommendations.products %}
+            <li class="grid__item">
+              {% render 'card-product',
+                card_product: recommendation,
+                media_aspect_ratio: section.settings.image_ratio,
+                show_secondary_image: section.settings.show_secondary_image,
+                show_vendor: section.settings.show_vendor,
+                show_rating: section.settings.show_rating
+              %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </product-recommendations>
+  </div>
+
 
 {% schema %}
 {
