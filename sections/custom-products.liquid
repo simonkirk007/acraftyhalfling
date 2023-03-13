@@ -28,7 +28,6 @@
                 <a href="{{ product.url }}" class="text-truncate w-100">{{ product.title }}</a>
               </h3>
               <div class="shopify-product-reviews-badge" data-id="{{ product.id }}"></div>
-              {{ product.star_rating }} {{ product.reviews_count | pluralize: 'review', 'reviews' }}
               <div class="price">
                 {% if product.compare_at_price > product.price %}
                   <span>USD {{ product.price | money }}</span>
