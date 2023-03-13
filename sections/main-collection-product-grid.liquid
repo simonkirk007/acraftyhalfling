@@ -122,6 +122,7 @@
               {% unless collection.handle == 'all-products' or collection.handle == 'home' %}
                 <li>
                   <a href="{{ collection.url }}">{{ collection.title }}</a>
+                  <span>{{ collection.products_count }}</span>
                 </li>
               {% endunless %}
             {% endfor %}
