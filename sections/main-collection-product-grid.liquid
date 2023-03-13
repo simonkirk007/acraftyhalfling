@@ -115,17 +115,17 @@
         data-id="{{ section.id }}"
       > 
       <div class="side-bar-custom">
-          <h3>Category</h3>
+          <h3>Product Categories</h3>
 
           <ul>
             {% for collection in collections %}
-              {% unless collection.handle == 'all-products' or collection.handle == 'home' %}
+              {% unless collection.handle == 'all-products' or collection.handle == 'home-page' %}
                 <li>
                   <div class="wrap">
                     <img src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/aaside.png?v=1678701015" alt="">
                     <a href="{{ collection.url }}">{{ collection.title }}</a>
                   </div>
-                  <span>{{ collection.products_count }}</span>
+                  <span>( {{ collection.products_count }} )</span>
                 </li>
               {% endunless %}
             {% endfor %}
