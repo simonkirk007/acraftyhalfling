@@ -10,7 +10,8 @@
   </div>
   <div class="container">
 
-    <div class="row prod-slider">
+    <div
+      class="row prod-slider">
 
       {% assign selected_collection = section.settings.collection %}
 
@@ -26,6 +27,7 @@
               <h3>
                 <a href="{{ product.url }}" class="text-truncate w-100">{{ product.title }}</a>
               </h3>
+              {{ product.reviews_count }}
               <div class="price">
                 {% if product.compare_at_price > product.price %}
                   <span>USD {{ product.price | money }}</span>
