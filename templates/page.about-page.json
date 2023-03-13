@@ -8,9 +8,85 @@
         "title": "About A Crafty Halfling",
         "banner_text": "<p>Purveyor of horns, wings, and other magical things. We provide everyday magic through table top role playing and cosplay accessories.<\/p>"
       }
+    },
+    "3fb4bccb-d11c-4ecb-8a0a-950d29053a7c": {
+      "type": "custom-collection",
+      "blocks": {
+        "template--18140304343326__3fb4bccb-d11c-4ecb-8a0a-950d29053a7c-1678703069cd7a9b57-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/col3.png",
+            "button_link": "#"
+          }
+        },
+        "template--18140304343326__3fb4bccb-d11c-4ecb-8a0a-950d29053a7c-1678703069cd7a9b57-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/col2.png",
+            "button_link": "#"
+          }
+        },
+        "template--18140304343326__3fb4bccb-d11c-4ecb-8a0a-950d29053a7c-1678703069cd7a9b57-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/col1.png",
+            "button_link": "#"
+          }
+        },
+        "a375fcfa-3e03-450b-ba8d-66b980734a04": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/col3.png",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--18140304343326__3fb4bccb-d11c-4ecb-8a0a-950d29053a7c-1678703069cd7a9b57-0",
+        "template--18140304343326__3fb4bccb-d11c-4ecb-8a0a-950d29053a7c-1678703069cd7a9b57-1",
+        "template--18140304343326__3fb4bccb-d11c-4ecb-8a0a-950d29053a7c-1678703069cd7a9b57-2",
+        "a375fcfa-3e03-450b-ba8d-66b980734a04"
+      ],
+      "settings": {
+        "main_title": "The Collections Gallery",
+        "main_content": ""
+      }
+    },
+    "78c75ebe-1ec7-4908-96ac-b705009042c8": {
+      "type": "custom-order",
+      "blocks": {
+        "template--18140304343326__78c75ebe-1ec7-4908-96ac-b705009042c8-1678703075617f8017-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img-left.png",
+            "order_title": "Join The Adventure",
+            "order_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
+            "button_title": "Multicolumn",
+            "button_link": ""
+          }
+        },
+        "template--18140304343326__78c75ebe-1ec7-4908-96ac-b705009042c8-1678703075617f8017-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imf-right.png",
+            "order_title": "Multicolumn",
+            "order_text": "",
+            "button_title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18140304343326__78c75ebe-1ec7-4908-96ac-b705009042c8-1678703075617f8017-0",
+        "template--18140304343326__78c75ebe-1ec7-4908-96ac-b705009042c8-1678703075617f8017-1"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "3fb4bccb-d11c-4ecb-8a0a-950d29053a7c",
+    "78c75ebe-1ec7-4908-96ac-b705009042c8"
   ]
 }
