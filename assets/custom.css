@@ -851,3 +851,9 @@ h1.collection-hero__title {
     margin-right: 10px;
     line-height: 15px;
 }
+.title-wrap .rte {
+    color: #fff;
+    font-size: 16px;
+    max-width: 550px;
+    text-align: center;
+}
