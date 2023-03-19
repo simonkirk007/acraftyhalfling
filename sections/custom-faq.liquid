@@ -11,22 +11,23 @@
   <div class="container">
     <div class="accordion" id="accordionExample">
       {%- for block in section.blocks -%}
+        {% assign someVar = someVar | plus: 1 %}
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
+          <h2 class="accordion-header" id="heading{{ someVar }}">
             <button
               class="accordion-button"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
+              data-bs-target="#collapse{{ someVar }}"
               aria-expanded="true"
-              aria-controls="collapseOne">
+              aria-controls="collapse{{ someVar }}">
               {{ block.settings.question }}
             </button>
           </h2>
           <div
-            id="collapseOne"
+            id="collapse{{ someVar }}"
             class="accordion-collapse collapse show"
-            aria-labelledby="headingOne"
+            aria-labelledby="heading{{ someVar }}"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
               {{ block.settings.answer }}
