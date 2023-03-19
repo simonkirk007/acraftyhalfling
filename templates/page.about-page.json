@@ -118,12 +118,48 @@
       ],
       "settings": {
       }
+    },
+    "7e420b26-f60a-4bfa-961e-e75dcdfa363d": {
+      "type": "custom-faq",
+      "blocks": {
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-0": {
+          "type": "column",
+          "settings": {
+            "question": "",
+            "answer": "<p>answer<\/p>"
+          }
+        },
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-1": {
+          "type": "column",
+          "settings": {
+            "question": "",
+            "answer": "<p>answer<\/p>"
+          }
+        },
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-2": {
+          "type": "column",
+          "settings": {
+            "question": "",
+            "answer": "<p>answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-0",
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-1",
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-2"
+      ],
+      "settings": {
+        "main_title": "Frequently Asked Questions",
+        "main_content": "Our brand focuses on clever ways toa incorporate fantasy into everyday life."
+      }
     }
   },
   "order": [
     "main",
     "3fb4bccb-d11c-4ecb-8a0a-950d29053a7c",
     "78c75ebe-1ec7-4908-96ac-b705009042c8",
-    "f73429e3-cd9c-4ef3-9899-1e5b62005322"
+    "f73429e3-cd9c-4ef3-9899-1e5b62005322",
+    "7e420b26-f60a-4bfa-961e-e75dcdfa363d"
   ]
 }
