@@ -929,3 +929,6 @@ section.faq-sec .accordion-item {
 section.faq-sec .accordion-item .accordion-button::after {
     display: none;
 }
+section.faq-sec {
+    padding: 50px 0;
+}
