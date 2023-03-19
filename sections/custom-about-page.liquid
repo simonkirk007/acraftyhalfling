@@ -1,4 +1,4 @@
-<section class="about-sec">
+<section class="about-page">
   <div class="main-title">
     <h1>
       <img src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-top.png?v=1677772916" alt="">
@@ -7,32 +7,26 @@
     <p>{{ section.settings.main_content | escape }}</p>
   </div>
   <div class="container-fluid">
-    <div class="about-wrap">
+    <div class="main-wrap">
       <div class="row justify-content-between align-items-end">
+        <div class="col-lg-2"></div>
         <div class="col-lg-4">
-          <div class="about-img about-left">
-            <img src="{{ section.settings.left_image | image_url }}" alt="">
+          <div class="content-wrap">
+            {{ section.settings.content }}
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="about-img about-center">
-            <img src="{{ section.settings.center_image | image_url }}" alt="">
+        <div class="col-lg-6 col-12">
+          <div class="img-wrap">
+            <img src="{{ section.settings.image_1 | image_url }}" alt="">
+          </div>
+          <div class="img-wrap">
+            <img src="{{ section.settings.image_2 | image_url }}" alt="">
+          </div>
+          <div class="img-wrap">
+            <img src="{{ section.settings.image_3 | image_url }}" alt="">
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="about-img about-right">
-            <img src="{{ section.settings.right_image | image_url }}" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="content-wrap">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-11 col-12">
-          <p>{{ section.settings.content | escape }}</p>
-        </div>
+
       </div>
     </div>
   </div>
