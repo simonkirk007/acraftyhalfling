@@ -895,3 +895,37 @@ body.page\.about-page section.order-sec::after {
     left: auto;
     right: -100px;
 }
+
+
+section.faq-sec h2.accordion-header button {
+    font-size: 22px;
+    font-family: var(--bs-font-sans-serif);
+    border: none !important;
+    box-sizing: unset !important;
+    width: auto;
+}
+
+section.faq-sec .accordion-body {
+    font-size: 19px;
+}
+
+section.faq-sec h2.accordion-header {
+    border: unset;
+}
+
+section.faq-sec .accordion-button:not(.collapsed) {
+    border: unset !important;
+    box-shadow: unset !important;
+    background-color: transparent;
+    color: unset;
+}
+
+section.faq-sec .accordion-item {
+    border: 2px solid #e3c739;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+section.faq-sec .accordion-item .accordion-button::after {
+    display: none;
+}
