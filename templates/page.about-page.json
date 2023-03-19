@@ -9,6 +9,17 @@
         "banner_text": "<p>Purveyor of horns, wings, and other magical things. We provide everyday magic through table top role playing and cosplay accessories.<\/p>"
       }
     },
+    "f14a92f7-1b4d-4cca-bea6-0a3f6bd74379": {
+      "type": "custom-about-page",
+      "settings": {
+        "main_title": "about cėfty halfling",
+        "main_content": "",
+        "image_1": "shopify:\/\/shop_images\/Rectangle_4_copy_11.png",
+        "image_2": "shopify:\/\/shop_images\/Rectangle_4_copy_11_2.png",
+        "image_3": "shopify:\/\/shop_images\/Rectangle_4_copy_11_1.png",
+        "content": "<p>Our brand focuses on clever ways to incorporate fantasy into everyday life. Crafty is a play on words of handmade crafts as well and cleverness.We make handmade goods such as monster dice bags, winged backpacks, dragon scarves, horns. We also build electronic props and costumes with a fantasy theme.<br\/><br\/>Our customers are largely gamers, renaissance fair enthusiasts, and anime\/comic fans of all ages. We primarily sell at anime and comic book conventions, and online.<\/p>"
+      }
+    },
     "3fb4bccb-d11c-4ecb-8a0a-950d29053a7c": {
       "type": "custom-collection",
       "blocks": {
@@ -173,6 +184,7 @@
   },
   "order": [
     "main",
+    "f14a92f7-1b4d-4cca-bea6-0a3f6bd74379",
     "3fb4bccb-d11c-4ecb-8a0a-950d29053a7c",
     "78c75ebe-1ec7-4908-96ac-b705009042c8",
     "7e420b26-f60a-4bfa-961e-e75dcdfa363d",
