@@ -83,6 +83,57 @@
       "settings": {
       }
     },
+    "7e420b26-f60a-4bfa-961e-e75dcdfa363d": {
+      "type": "custom-faq",
+      "blocks": {
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-0": {
+          "type": "column",
+          "settings": {
+            "question": "It is a long established fact that a reader will be distracted by the readable content?",
+            "answer": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>"
+          }
+        },
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-1": {
+          "type": "column",
+          "settings": {
+            "question": "It is a long established fact that a reader will be distracted by the readable content?",
+            "answer": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>"
+          }
+        },
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-2": {
+          "type": "column",
+          "settings": {
+            "question": "It is a long established fact that a reader will be distracted by the readable content?",
+            "answer": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>"
+          }
+        },
+        "6d8bb8df-f6fa-4256-b197-898558e37554": {
+          "type": "column",
+          "settings": {
+            "question": "It is a long established fact that a reader will be distracted by the readable content?",
+            "answer": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>"
+          }
+        },
+        "b5f72468-208f-44d2-aa27-7441e61bd926": {
+          "type": "column",
+          "settings": {
+            "question": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+            "answer": "<p>answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-0",
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-1",
+        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-2",
+        "6d8bb8df-f6fa-4256-b197-898558e37554",
+        "b5f72468-208f-44d2-aa27-7441e61bd926"
+      ],
+      "settings": {
+        "main_title": "Frequently Asked Questions",
+        "main_content": "Our brand focuses on clever ways toa incorporate fantasy into everyday life."
+      }
+    },
     "f73429e3-cd9c-4ef3-9899-1e5b62005322": {
       "type": "custom-shipping",
       "blocks": {
@@ -118,48 +169,13 @@
       ],
       "settings": {
       }
-    },
-    "7e420b26-f60a-4bfa-961e-e75dcdfa363d": {
-      "type": "custom-faq",
-      "blocks": {
-        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-0": {
-          "type": "column",
-          "settings": {
-            "question": "It is a long established fact that a reader will be distracted by the readable content?",
-            "answer": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>"
-          }
-        },
-        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-1": {
-          "type": "column",
-          "settings": {
-            "question": "It is a long established fact that a reader will be distracted by the readable content?",
-            "answer": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>"
-          }
-        },
-        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-2": {
-          "type": "column",
-          "settings": {
-            "question": "It is a long established fact that a reader will be distracted by the readable content?",
-            "answer": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-0",
-        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-1",
-        "template--18140304343326__7e420b26-f60a-4bfa-961e-e75dcdfa363d-1679237762c30f06de-2"
-      ],
-      "settings": {
-        "main_title": "Frequently Asked Questions",
-        "main_content": "Our brand focuses on clever ways toa incorporate fantasy into everyday life."
-      }
     }
   },
   "order": [
     "main",
     "3fb4bccb-d11c-4ecb-8a0a-950d29053a7c",
     "78c75ebe-1ec7-4908-96ac-b705009042c8",
-    "f73429e3-cd9c-4ef3-9899-1e5b62005322",
-    "7e420b26-f60a-4bfa-961e-e75dcdfa363d"
+    "7e420b26-f60a-4bfa-961e-e75dcdfa363d",
+    "f73429e3-cd9c-4ef3-9899-1e5b62005322"
   ]
 }
