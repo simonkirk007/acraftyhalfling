@@ -932,3 +932,10 @@ section.faq-sec .accordion-item .accordion-button::after {
 section.faq-sec {
     padding: 50px 0;
 }
+.about-page .content-wrap {
+    font-size: 25px;
+}
+
+.about-page .img-wrap {
+    display: flex;
+}
