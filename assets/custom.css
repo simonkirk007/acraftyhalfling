@@ -1042,3 +1042,6 @@ div.product span.badge.price__badge-sold-out {
 .spr-form input.spr-button:hover {
     color: #000;
 }
+.spr-review-content p, .spr-review-footer a, .spr-review-header span, .spr-review-header h3 {
+    font-size: 20px !important;
+}
