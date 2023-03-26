@@ -974,3 +974,11 @@ div.product .button.button--primary {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.card__content .spr-badge span.spr-badge-caption {
+    display: none;
+}
+
+.card__content .spr-badge {
+    height: 50px;
+}
