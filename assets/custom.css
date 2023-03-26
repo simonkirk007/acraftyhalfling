@@ -1015,3 +1015,30 @@ div.product span.badge.price__badge-sold-out {
     line-height: 22px;
     font-weight: 100;
 }
+.spr-form {
+    font-size: 20px;
+}
+
+.spr-form label {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.spr-form input, .spr-form textarea {
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.spr-form h3.spr-form-title {
+    font-size: 29px;
+}
+
+.spr-form input.spr-button {
+    background:  #e3c739;
+    padding: 15px 40px;
+    text-transform: uppercase;
+}
+
+.spr-form input.spr-button:hover {
+    color: #000;
+}
