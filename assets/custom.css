@@ -982,3 +982,27 @@ div.product .button.button--primary {
 .card__content .spr-badge {
     height: 50px;
 }
+
+.relate-wrap {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.spr-starrating .spr-stars:last-child {
+    display: none;
+}
+
+.spr-starrating .spr-stars svg.spr-star {
+    width: 25px !important;
+    height: 25px !important;
+}
+.spr-container h2.spr-header-title {
+    font-size: 60px;
+    color: #daa520;
+    text-decoration: unset;
+    display: block;
+    line-height: 45px;
+}
+
+.spr-container .spr-summary.rte {
+    font-size: 25px;
+}
