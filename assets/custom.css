@@ -1,3 +1,8 @@
+.button {
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
 .button.button--primary:hover {
     color: #000;
 }
@@ -1044,4 +1049,17 @@ div.product span.badge.price__badge-sold-out {
 }
 .spr-review-content p, .spr-review-footer a, .spr-review-header span, .spr-review-header h3 {
     font-size: 20px !important;
+}
+
+td.cart-item__details a.cart-item__name {
+    font-size: 30px;
+}
+
+td.cart-item__details .product-option {font-size: 20px;}
+
+.cart-item__price-wrapper span.price {
+    font-size: 24px;
+}
+.cart-items thead th {
+    font-size: 20px;
 }
