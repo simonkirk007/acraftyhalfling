@@ -54,13 +54,15 @@
       <h1 class="main-page-title page-title h0">{{ section.settings.title | escape }}</h1>
     {% endif %}
     {% if section.settings.banner_text != blank %}
+    <div class="rte">
       {{ section.settings.banner_text }}
+      </div>
 
     {% endif %}
     <div class="rte">
       {{ page.content }}
-    </div>
-  </div>
+      </div>
+      </div>
 </div>
 
 {% schema %}
