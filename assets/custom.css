@@ -387,7 +387,7 @@ section.product-sec .main-title h1, section.product-sec .main-title p {
     margin-bottom: 50px;
     padding: 30px 30px;
     background: url(https://cdn.shopify.com/s/files/1/0715/3156/1246/files/pro-img.png?v=1677942773) center no-repeat #000;
-    background-size: cover;
+    background-size: contain;
 }
 .product-box {
     margin-bottom: 80px;
@@ -1005,4 +1005,13 @@ div.product .button.button--primary {
 
 .spr-container .spr-summary.rte {
     font-size: 25px;
+}
+section.product-sec .product-box {
+    margin: 0 10px;
+}
+div.product span.badge.price__badge-sold-out {
+    font-size: 35px;
+    font-family: Sarcastic Inline;
+    line-height: 22px;
+    font-weight: 100;
 }
