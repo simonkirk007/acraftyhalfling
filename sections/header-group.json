@@ -36,22 +36,10 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "db0a1fb0-cd4c-4468-a8ea-2a2db73ef24b": {
-      "type": "custom-about-page",
-      "settings": {
-        "main_title": "Forum",
-        "main_content": "",
-        "image_1": "shopify:\/\/shop_images\/Rectangle_4_copy_11.png",
-        "image_2": "shopify:\/\/shop_images\/Rectangle_4_copy_11_2.png",
-        "image_3": "shopify:\/\/shop_images\/Rectangle_4_copy_11_1.png",
-        "content": "<p>Our brand focuses on clever ways to incorporate fantasy into everyday life. Crafty is a play on words of handmade crafts as well and cleverness.We make handmade goods such as monster dice bags, winged backpacks, dragon scarves, horns. We also build electronic props and costumes with a fantasy theme.<br\/><br\/>Our customers are largely gamers, renaissance fair enthusiasts, and anime\/comic fans of all ages. We primarily sell at anime and comic book conventions, and online.<\/p>"
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "db0a1fb0-cd4c-4468-a8ea-2a2db73ef24b"
+    "header"
   ]
 }
