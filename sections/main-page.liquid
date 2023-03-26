@@ -53,7 +53,7 @@
     {% else %}
       <h1 class="main-page-title page-title h0">{{ section.settings.title | escape }}</h1>
     {% endif %}
-    {% if section.settings.banner_text == blank %}
+    {% if section.settings.banner_text != blank %}
       {{ section.settings.banner_text }}
 
     {% endif %}
