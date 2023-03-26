@@ -13,11 +13,8 @@
   href="{{ 'section-related-products.css' | asset_url }}"
   media="print"
   onload="this.media='all'">
-<script>
-  jQuery(document).ready(function() {
-    jQuery('.related-products ul.grid').slick({slidesToShow: 3, slidesToScroll: 1, arrows: true});
-  });
-</script>
+
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}
@@ -37,27 +34,18 @@
 {%- endstyle -%}
 
 
-<div
-  class="relate-wrap">
-  <product-recommendations
-    class="related-products page-width section-{{ section.id }}-padding isolate"
-    data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}">
+<div class="relate-wrap">
+  <product-recommendations class="related-products page-width section-{{ section.id }}-padding isolate" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}">
     {% if recommendations.performed and recommendations.products_count > 0 %}
-      <div
-        class="main-title">
+      <div class="main-title">
         <h1>
-          <img
-            src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-top.png?v=1677772916"
-            alt="">
+          <img src="https://cdn.shopify.com/s/files/1/0715/3156/1246/files/about-head-top.png?v=1677772916" alt="">
           {{ section.settings.heading | escape }}
         </h1>
       </div>
-      <ul
-        class="grid"
-        role="list">
+      <ul class="grid" role="list">
         {% for recommendation in recommendations.products %}
-          <li
-            class="grid__item">
+          <li class="grid__item">
             {% render 'card-product'
              , card_product: recommendation,
              media_aspect_ratio: section.settings.image_ratio,
