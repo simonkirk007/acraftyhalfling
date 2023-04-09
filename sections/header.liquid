@@ -137,22 +137,49 @@
   </symbol>
 </svg>
 
-  <div class="header-wrap">
-    
 
-  <nav class="navbar navbar-dark bg-dark">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </nav>
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Collapsed content</h5>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
+<!-- Sidenav -->
+<nav id="sidenav-1" class="sidenav" data-mdb-hidden="false">
+  <ul class="sidenav-menu">
+    <li class="sidenav-item">
+      <a class="sidenav-link">
+        <i class="far fa-smile fa-fw me-3"></i><span>Link 1</span></a>
+    </li>
+    <li class="sidenav-item">
+      <a class="sidenav-link"><i class="fas fa-grin fa-fw me-3"></i><span>Category 1</span></a>
+      <ul class="sidenav-collapse show">
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 2</a>
+        </li>
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 3</a>
+        </li>
+      </ul>
+    </li>
+    <li class="sidenav-item">
+      <a class="sidenav-link"><i class="fas fa-grin-wink fa-fw me-3"></i><span>Category
+          2</span></a>
+      <ul class="sidenav-collapse">
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 4</a>
+        </li>
+        <li class="sidenav-item">
+          <a class="sidenav-link">Link 5</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<!-- Sidenav -->
+
+
+  <div class="header-wrap">
+
+
+<button data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1" class="btn btn-primary"
+  aria-controls="#sidenav-1" aria-haspopup="true">
+  <i class="fas fa-bars"></i>
+</button>
 
     <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
     
