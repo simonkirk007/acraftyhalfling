@@ -138,6 +138,21 @@
 </svg>
 
   <div class="header-wrap">
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Collapsed content</h5>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  
     <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
     
     
@@ -202,19 +217,7 @@
           </nav>
     
           <!-- side menu start -->
-          <nav class="navbar navbar-dark bg-dark">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-          </nav>
-          <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark p-4">
-              <h5 class="text-white h4">Collapsed content</h5>
-              <span class="text-muted">Toggleable via the navbar brand.</span>
-            </div>
-          </div>
+
     <!-- side menu end -->
     
       <div class="header__icons">
