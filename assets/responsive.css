@@ -101,7 +101,7 @@ header .header__icons,
 }
   
   .overlay-content .header__icons {
-    display: block;
+    display: flex;
 }
 .header-wrap header {
     grid-template-columns: 1fr 1fr;
