@@ -237,7 +237,8 @@ header .header__icons,
     max-width: 100%;
     padding: 0 15px 30px;
 }
-  .mobile-facets__summary span {
+  .mobile-facets__summary span,
+  .mobile-facets__summary label {
     font-size: 16px;
 }
   .title-wrap {
