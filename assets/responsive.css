@@ -6,6 +6,9 @@
   .product .caption-with-letter-spacing {
       font-size: 18px;
   }
+  .product .product__title h1 {
+    font-size: 45px;
+}
 .grid--3-col-desktop .grid__item {
     width: 50%;
     max-width: 50%;
