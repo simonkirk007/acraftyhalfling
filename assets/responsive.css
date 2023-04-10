@@ -239,6 +239,10 @@ header .header__icons,
   .footer__payment img {
     width: 100%;
 }
+  .list-social__item .icon {
+    height: 2.5rem;
+    width: 2.5rem;
+}
 
   
 }
