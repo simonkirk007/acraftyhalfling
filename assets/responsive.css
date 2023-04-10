@@ -241,6 +241,9 @@ header .header__icons,
   .mobile-facets__summary label {
     font-size: 16px;
 }
+  .mobile-facets__clear-wrapper a.mobile-facets__clear {
+    font-size: 18px;
+}
   .title-wrap {
     min-height: 350px !important;
   }
