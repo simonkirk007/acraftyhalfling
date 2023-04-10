@@ -1133,3 +1133,10 @@ span.menu-burger{
 .overlay-content .header__icons {
     justify-content: center;
 }
+.before-footer{
+  display: none;
+}
+
+body.index .before-footer {
+    display: block;
+}
