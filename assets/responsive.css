@@ -163,6 +163,9 @@ header .header__icons,
   .cont-wrap p, section.ship-sec .cont-wrap p {
     font-size: 15px;
 }
+  section.ship-sec .ship-inner img.side-border {
+    display: none;
+}
   
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
