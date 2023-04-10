@@ -20,7 +20,8 @@
   .spr-container h2.spr-header-title {
     font-size: 45px;
 }
-  .spr-summary span.spr-summary-actions-togglereviews {
+  .spr-summary span.spr-summary-actions-togglereviews,
+  .spr-summary .spr-summary-actions-newreview {
     font-size: 18px;
 }
 .grid--3-col-desktop .grid__item {
