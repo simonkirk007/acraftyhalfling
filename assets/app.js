@@ -9,23 +9,24 @@ jQuery(document).ready(function(){
         slidesToScroll: 1,
         arrows: false,
       responsive:[
-    {
-        breakpoint:900,
-        settings:
-        {
-            slidesToShow:2,
-            slidesToScroll:1,
-            infinite:!0,dots:!0
-        }
-        },
-        {
-            breakpoint:600,
-            settings:
-            {
-                slidesToShow:1,
-                slidesToScroll:1
-            }
-        }]
+      {
+          breakpoint:900,
+          settings:
+          {
+              slidesToShow:2,
+              slidesToScroll:1,
+              infinite:!0,dots:!0
+          }
+      },
+      {
+          breakpoint:500,
+          settings:
+          {
+              slidesToShow:1,
+              slidesToScroll:1
+          }
+      }
+      ]
       });
   });
 
