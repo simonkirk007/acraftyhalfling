@@ -83,7 +83,10 @@ section.order-sec {
     font-size: 40px;
     line-height: 40px;
 }
-  
+
+span.menu-burger{
+  display: block;
+}
   
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {

@@ -1126,3 +1126,7 @@ span.menu-burger {
 .overlay .closebtn {
     color: #fff;
 }
+
+span.menu-burger{
+  display: none;
+}
