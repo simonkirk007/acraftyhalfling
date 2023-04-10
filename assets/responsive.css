@@ -149,6 +149,7 @@ span.menu-burger{
   
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
+  
 .grid--2-col-tablet .grid__item {
     width: 100%;
     padding: 0;
@@ -375,7 +376,9 @@ header .header__icons,
   section.product-sec .product-box .product-con span.spr-badge-caption {
     display: none;
 }
-
+  .relate-wrap ul.grid {
+    grid-template-columns: 1fr;
+}
   
 }
 @media only screen and (min-width : 100px) and (max-width : 800px) {
