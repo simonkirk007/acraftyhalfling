@@ -130,11 +130,7 @@ span.menu-burger{
     padding: 0 30px;
     height: 50px;
 }
-  aside.facets-wrapper {
-    margin-right: 15px;
-    max-width: 100%;
-    margin-left: 15px;
-}
+
   .grid--3-col-desktop .grid__item {
     width: 100%;
     max-width: 100%;
@@ -231,6 +227,11 @@ header .header__icons,
 }
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
+    aside.facets-wrapper {
+    margin-right: 15px;
+    max-width: 100%;
+    margin-left: 15px;
+}
   .title-wrap {
     min-height: 350px !important;
   }
