@@ -28,7 +28,8 @@
     font-size: 60px;
     line-height: 60px;
 }
-.main-title p {
+.main-title p,
+section.about-sec .content-wrap p {
     font-size: 20px;
 }
   
