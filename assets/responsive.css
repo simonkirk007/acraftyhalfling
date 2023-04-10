@@ -24,8 +24,10 @@
     color: #fff;
     line-height: 37px;
 }
-
-  
+.main-title h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
 
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
