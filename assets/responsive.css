@@ -91,9 +91,9 @@ span.menu-burger{
 .overlay-content nav.header__inline-menu {
   display: block;
 }
-  .before-footer .img-left {
+.before-footer .img-left {
     left: 0;
-    
+    top: -20px;
 }
   .before-footer img {
     width: 90px;
