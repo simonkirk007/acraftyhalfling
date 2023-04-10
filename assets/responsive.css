@@ -120,6 +120,10 @@ header .header__icons,
   .main-title {
     padding: 0 15px;
 }
+  .main-title h1 {
+    font-size: 45px;
+    line-height: 40px;
+}
   .main-title h1 img {
     top: -70px;
 }
