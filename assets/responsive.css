@@ -231,9 +231,11 @@ header .header__icons,
 }
 
 
-  .footer-block ul li a.list-menu__item {
+  .footer-block ul li a.list-menu__item,
+  .footer__content-bottom .footer__content-bottom-wrapper>div{
     justify-content: center;
 }
+  
 
   
 }
