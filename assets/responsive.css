@@ -13,6 +13,10 @@
     width: 15px !important;
     height: 15px !important;
 }
+  div.product .button.button--primary {
+    font-size: 18px;
+    height: 45px;
+}
 .grid--3-col-desktop .grid__item {
     width: 50%;
     max-width: 50%;
