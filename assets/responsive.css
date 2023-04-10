@@ -8,7 +8,7 @@ section.about-page .content-wrap p {
     font-size: 20px;
 }
   .main-page-title, .page-title {
-    font-size: 60px;
+    font-size: 60px !important;
 }
   
 .header--middle-left .header__inline-menu{
