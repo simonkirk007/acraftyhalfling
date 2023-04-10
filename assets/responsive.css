@@ -75,6 +75,9 @@ section.order-sec {
   section.ship-sec .cont-wrap p {
     font-size: 20px;
 }
+  section.ship-sec {
+    padding: 50px 0px 100px;
+}
 
   
 }
