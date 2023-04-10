@@ -109,6 +109,7 @@ header .header__icons,
 .header-wrap header .header__heading {
   grid-column: 1/2;
   grid-row: 1/2;
+      justify-self: flex-start;
 }
   .header-wrap header .menu-burger{
       grid-column: 2/3;
