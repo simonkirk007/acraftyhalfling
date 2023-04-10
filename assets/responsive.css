@@ -200,7 +200,9 @@ header .header__icons,
   section.ship-sec .ship-inner img.side-border {
     display: none;
 }
-  
+    .main-page-title, .page-title {
+    font-size: 45px !important;
+}
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
   .about-page .image-wrap {
