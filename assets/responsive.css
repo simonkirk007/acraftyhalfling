@@ -24,6 +24,9 @@
   .spr-summary .spr-summary-actions-newreview {
     font-size: 18px;
 }
+  .spr-summary  .spr-icon {
+    font-size: 78%;
+  }
 .grid--3-col-desktop .grid__item {
     width: 50%;
     max-width: 50%;
