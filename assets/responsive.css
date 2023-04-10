@@ -150,6 +150,9 @@ header .header__icons,
     margin-right: auto;
         margin-bottom: 50px;
 }
+  .collection-wrap .collection-img {
+    margin-bottom: 15px;
+}
   
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
