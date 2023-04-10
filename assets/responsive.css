@@ -201,6 +201,11 @@ header .header__icons,
   .order-wrap .order-inner .img-wrap {
     margin-top: 30px;
 }
+  .button.button--primary {
+    padding: 0 40px;
+    height: 45px;
+    font-size: 25px;
+}
 
 }
 @media only screen and (min-width : 100px) and (max-width : 800px) {
