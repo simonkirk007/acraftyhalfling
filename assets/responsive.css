@@ -157,6 +157,9 @@ span.menu-burger{
     max-width: 100%;
 }
 
+  .relate-wrap ul.grid {
+    grid-template-columns: 1fr 1fr;
+}
 .product__media-list .product__media-item:first-child {
     display: block;
 }
