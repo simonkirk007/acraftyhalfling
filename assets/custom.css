@@ -1130,3 +1130,6 @@ span.menu-burger {
 span.menu-burger{
   display: none;
 }
+.overlay-content .header__icons {
+    justify-content: center;
+}
