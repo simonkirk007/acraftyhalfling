@@ -100,7 +100,7 @@ header .header__icons,
   display: none;
 }
   
-  .overlay-content .header__icons {
+.overlay-content .header__icons {
     display: flex;
 }
 .header-wrap header {
@@ -116,6 +116,20 @@ header .header__icons,
       grid-row: 1/2;
         justify-self: flex-end;
   }
+  .main-title h1 img {
+    top: -70px;
+}
+  .main-title h1::after, 
+  .main-title h1::before {
+    top: -5px;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+  
+  .main-title h1::before {
+    right: 50%;
+    transform: translateY(-50%) translateX(50%);
+}
   
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
