@@ -22,7 +22,8 @@
 }
   .spr-summary span.spr-summary-actions-togglereviews,
   .spr-summary .spr-summary-actions-newreview,
-  .spr-review-content p, .spr-review-footer a, .spr-review-header span, .spr-review-header h3{
+  .spr-review-content p, .spr-review-footer a, .spr-review-header span, .spr-review-header h3,
+  .spr-container .spr-summary.rte {
     font-size: 18px !important;
 }
   .spr-summary  .spr-icon {
