@@ -17,6 +17,12 @@
     font-size: 18px;
     height: 45px;
 }
+  .spr-container h2.spr-header-title {
+    font-size: 45px;
+}
+  .spr-summary span.spr-summary-actions-togglereviews {
+    font-size: 18px;
+}
 .grid--3-col-desktop .grid__item {
     width: 50%;
     max-width: 50%;
