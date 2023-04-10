@@ -382,6 +382,9 @@ header .header__icons,
   div#cart-notification {
     display: none;
 }
+  .title-wrapper-with-link a {
+    font-size: 25px;
+}
 }
 @media only screen and (min-width : 100px) and (max-width : 800px) {
 
