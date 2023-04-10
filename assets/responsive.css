@@ -232,6 +232,11 @@ header .header__icons,
     max-width: 100%;
     margin-left: 15px;
 }
+  .grid--3-col-desktop .grid__item {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px 30px;
+}
   .title-wrap {
     min-height: 350px !important;
   }
