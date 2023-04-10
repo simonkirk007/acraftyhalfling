@@ -106,6 +106,16 @@ span.menu-burger{
   
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
+  footer .footer__blocks-wrapper .footer-block {
+    width: 50%;
+}
+  footer .footer__blocks-wrapper .footer-block.footer-block--menu, footer .footer__blocks-wrapper .footer-block:last-child {
+    width: 50%;
+}
+  .footer-block ul li a.list-menu__item {
+    font-size: 16px;
+    line-height: 1;
+}
 header .header__icons,
   header .btn-wrap {
   display: none;
