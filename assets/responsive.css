@@ -123,6 +123,10 @@ span.menu-burger{
   
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
+  .grid--3-col-desktop .grid__item {
+    width: 100%;
+    max-width: 100%;
+}
   section.about-page .content-wrap p {
     font-size: 18px;
 }
