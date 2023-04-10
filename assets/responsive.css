@@ -36,6 +36,10 @@ section.about-sec .content-wrap p {
 .main-title {
     margin: 0 auto 50px;
 }
+
+.product-box .product-img img {
+    height: 350px;
+}
   
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
