@@ -65,7 +65,14 @@ section.order-sec {
   .cat-sec .collection-wrap .collection-img img.bg-img {
     bottom: -43px;
 }
-  
+  .cont-wrap h2 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+  .cont-wrap p {
+    font-size: 20px;
+}
 
   
 }
