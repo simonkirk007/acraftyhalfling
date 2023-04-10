@@ -95,9 +95,11 @@ span.menu-burger{
   
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
-.header__icons{
+header .header__icons,
+  header .btn-wrap {
   display: none;
 }
+  
   .overlay-content .header__icons {
     display: block;
 }
