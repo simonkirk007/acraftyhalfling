@@ -116,6 +116,10 @@ header .header__icons,
       grid-row: 1/2;
         justify-self: flex-end;
   }
+
+  .main-title {
+    padding: 0 15px;
+}
   .main-title h1 img {
     top: -70px;
 }
