@@ -220,12 +220,17 @@ header .header__icons,
   footer .footer__blocks-wrapper .footer-block:last-child
   {
       width: 100%;
-        align-items: center;
+    
   }
 
   footer {
     text-align: center;
 }
+  .footer-block-image, .footer-block-image.left, .footer-block-image.center, .footer-block-image.right {
+    align-items: center;
+}
+
+  
 }
 @media only screen and (min-width : 100px) and (max-width : 800px) {
 
