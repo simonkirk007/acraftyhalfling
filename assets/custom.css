@@ -1120,3 +1120,6 @@ span.menu-burger {
   right: 35px;
   }
 }
+.overlay-content ul.list-menu li a {
+    color: #fff;
+}
