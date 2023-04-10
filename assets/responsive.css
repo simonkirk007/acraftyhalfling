@@ -41,7 +41,8 @@ section.about-sec .content-wrap p {
     height: 350px;
 }
 
-  .product-box .product-con h3 a {
+  .product-box .product-con h3 a,
+  section.ship-sec .cont-wrap h2 {
     font-size: 40px;
     line-height: 40px;
 }
@@ -70,7 +71,8 @@ section.order-sec {
     line-height: 60px;
 }
 
-  .cont-wrap p {
+  .cont-wrap p,
+  section.ship-sec .cont-wrap p {
     font-size: 20px;
 }
 
