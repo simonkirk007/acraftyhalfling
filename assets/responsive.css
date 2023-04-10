@@ -222,6 +222,9 @@ header .header__icons,
       width: 100%;
   }
 
+  footer {
+    text-align: center;
+}
 }
 @media only screen and (min-width : 100px) and (max-width : 800px) {
 
