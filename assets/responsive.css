@@ -40,6 +40,11 @@ section.about-sec .content-wrap p {
 .product-box .product-img img {
     height: 350px;
 }
+
+  .product-box .product-con h3 a {
+    font-size: 40px;
+    line-height: 40px;
+}
   
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
