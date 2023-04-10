@@ -7,6 +7,13 @@
     width: 50%;
     max-width: 50%;
 }
+  .product-card-wrapper .card__content h3 a {
+    font-size: 45px;
+}
+  .product-card-wrapper .card__content .price {
+    font-size: 40px;
+    line-height: 40px;
+}
 section.about-page .content-wrap p {
     font-size: 20px;
 }
