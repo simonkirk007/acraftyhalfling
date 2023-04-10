@@ -23,7 +23,7 @@
   .spr-summary span.spr-summary-actions-togglereviews,
   .spr-summary .spr-summary-actions-newreview,
   .spr-review-content p, .spr-review-footer a, .spr-review-header span, .spr-review-header h3{
-    font-size: 18px;
+    font-size: 18px !important;
 }
   .spr-summary  .spr-icon {
     font-size: 78%;
