@@ -198,6 +198,9 @@ header .header__icons,
     font-size: 45px;
     line-height: 45px;
 }
+  .order-wrap .order-inner .img-wrap {
+    margin-top: 30px;
+}
 
 }
 @media only screen and (min-width : 100px) and (max-width : 800px) {
