@@ -128,7 +128,7 @@ header .header__icons,
   
   .main-title h1::before {
     right: 50%;
-    transform: translateY(-50%) translateX(50%);
+    transform: translateY(-50%) translateX(-50%);
 }
   
 }
