@@ -91,6 +91,10 @@ span.menu-burger{
 .overlay-content nav.header__inline-menu {
   display: block;
 }
+  .before-footer .img-left {
+    left: 0;
+    
+}
 
   
 }
