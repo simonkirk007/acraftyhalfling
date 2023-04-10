@@ -270,6 +270,10 @@ header .header__icons,
     .main-page-title, .page-title {
     font-size: 45px !important;
 }
+  .slider.slider--everywhere .slider__slide {
+    background-image: url(inspector-stylesheet);
+  }
+  
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
     aside.facets-wrapper {
