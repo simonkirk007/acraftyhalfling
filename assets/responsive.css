@@ -144,7 +144,9 @@ header .header__icons,
         margin-left: auto;
     margin-right: auto;
 }
-  
+  .about-img.about-center img {
+    max-width: 300px;
+}
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
 
