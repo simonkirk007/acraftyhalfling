@@ -7,7 +7,24 @@ jQuery(document).ready(function(){
     jQuery('.prod-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        arrows: false
+        arrows: false,
+      responsive:[
+    {
+        breakpoint:800,
+        settings:
+        {slidesToShow:1,
+            slidesToScroll:1,
+            infinite:!0,dots:!0
+        }
+        },
+        {
+            breakpoint:600,
+            settings:
+            {
+                slidesToShow:1,
+                slidesToScroll:1
+            }
+        }]
       });
   });
 
