@@ -53,7 +53,9 @@ section.about-sec .content-wrap p {
     padding: 50px 0 30px;
 }
   
-section.about-sec, section.collection-sec {
+section.about-sec, 
+section.collection-sec,
+section.order-sec {
     padding: 50px 0;
 }
   .cat-sec .collection-wrap .collection-img img.main-img {
