@@ -205,6 +205,9 @@ header .header__icons,
 }
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
+  .title-wrap {
+    min-height: 350px;
+  }
   .about-page .image-wrap {
     grid-template-columns: 1fr;
   }
