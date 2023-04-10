@@ -126,6 +126,10 @@ span.menu-burger{
   div#ProductGridContainer {
     padding-right: 15px;
 }
+  .facet-filters__field div.select {
+    padding: 0 30px;
+    height: 50px;
+}
   .grid--3-col-desktop .grid__item {
     width: 100%;
     max-width: 100%;
