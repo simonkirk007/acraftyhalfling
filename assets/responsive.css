@@ -103,7 +103,18 @@ header .header__icons,
   .overlay-content .header__icons {
     display: block;
 }
-
+.header-wrap header {
+    grid-template-columns: 1fr 1fr;
+}
+.header-wrap header .header__heading {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+  .header-wrap header .menu-burger{
+      grid-column: 2/3;
+      grid-row: 1/2;
+  }
+  
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
 
