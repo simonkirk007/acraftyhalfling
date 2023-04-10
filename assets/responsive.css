@@ -216,6 +216,8 @@ header .header__icons,
   footer .footer__blocks-wrapper .footer-block,
   footer .footer__blocks-wrapper .footer-block.footer-block--menu, 
   footer .footer__blocks-wrapper .footer-block:last-child,
+  footer .footer__blocks-wrapper .footer-block.footer-block--menu, 
+  footer .footer__blocks-wrapper .footer-block:last-child
   {
       width: 100%;
   }
