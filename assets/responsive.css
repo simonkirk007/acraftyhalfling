@@ -113,6 +113,7 @@ header .header__icons,
   .header-wrap header .menu-burger{
       grid-column: 2/3;
       grid-row: 1/2;
+        justify-self: flex-end;
   }
   
 }
