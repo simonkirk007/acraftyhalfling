@@ -6,7 +6,9 @@
 section.about-page .content-wrap p {
     font-size: 20px;
 }
-  
+  .main-page-title, .page-title {
+    font-size: 60px;
+}
   
 .header--middle-left .header__inline-menu{
     display: none;
