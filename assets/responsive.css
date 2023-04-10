@@ -202,6 +202,9 @@ header .header__icons,
   
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
+  .about-page .image-wrap {
+    grid-template-columns: 1fr;
+  }
 .product-box .product-img {
     margin-bottom: 30px;
     padding: 70px 30px;
