@@ -230,6 +230,11 @@ header .header__icons,
     align-items: center;
 }
 
+
+  .footer-block ul li a.list-menu__item {
+    justify-content: center;
+}
+
   
 }
 @media only screen and (min-width : 100px) and (max-width : 800px) {
