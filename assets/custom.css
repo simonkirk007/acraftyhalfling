@@ -1123,3 +1123,6 @@ span.menu-burger {
 .overlay-content ul.list-menu li a {
     color: #fff;
 }
+.overlay .closebtn {
+    color: #fff;
+}
