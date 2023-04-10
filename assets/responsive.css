@@ -115,6 +115,9 @@ span.menu-burger{
   section.about-page .content-wrap p {
     font-size: 18px;
 }
+  section.about-page .content-wrap{
+    margin-bottom: 30px;
+  }
   footer .footer__blocks-wrapper .footer-block {
     width: 50%;
 }
