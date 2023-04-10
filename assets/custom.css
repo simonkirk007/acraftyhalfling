@@ -496,7 +496,7 @@ slideshow-component .slideshow__controls {
     border: unset;
     margin-top: -60px;
     position: relative;
-    z-index: 99999;
+    z-index: 2;
 }
 
 slideshow-component .slideshow__controls button.slider-counter__link.slider-counter__link--dots.link {
