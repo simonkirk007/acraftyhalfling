@@ -10,9 +10,10 @@ jQuery(document).ready(function(){
         arrows: false,
       responsive:[
     {
-        breakpoint:800,
+        breakpoint:900,
         settings:
-        {slidesToShow:1,
+        {
+            slidesToShow:2,
             slidesToScroll:1,
             infinite:!0,dots:!0
         }
