@@ -146,7 +146,11 @@ header .header__icons,
 }
   .about-img.about-center img {
     max-width: 300px;
+            margin-left: auto;
+    margin-right: auto;
+        margin-bottom: 50px;
 }
+  
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
 
