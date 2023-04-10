@@ -243,6 +243,9 @@ header .header__icons,
     height: 2.5rem;
     width: 2.5rem;
 }
+  section.product-sec .product-box .product-con {
+    text-align: center;
+}
 
   
 }
