@@ -14,8 +14,7 @@ jQuery(document).ready(function(){
           settings:
           {
               slidesToShow:2,
-              slidesToScroll:1,
-              infinite:!0,dots:!0
+              slidesToScroll:1
           }
       },
       {
