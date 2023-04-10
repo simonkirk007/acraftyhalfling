@@ -232,10 +232,13 @@ header .header__icons,
 
 
   .footer-block ul li a.list-menu__item,
-  .footer__content-bottom .footer__content-bottom-wrapper>div{
+  .footer__content-bottom .footer__content-bottom-wrapper>div {
     justify-content: center;
 }
-  
+
+  .footer__payment img {
+    width: 100%;
+}
 
   
 }
