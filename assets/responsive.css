@@ -149,8 +149,9 @@ span.menu-burger{
   
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
-  .grid--2-col-tablet .grid__item {
+.grid--2-col-tablet .grid__item {
     width: 100%;
+    padding: 0;
 }
 
 .product__media-list .product__media-item:first-child {
