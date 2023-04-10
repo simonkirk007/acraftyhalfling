@@ -45,6 +45,10 @@ section.about-sec .content-wrap p {
     font-size: 40px;
     line-height: 40px;
 }
+
+  .product-box .product-con .price {
+    font-size: 40px;
+}
   
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
