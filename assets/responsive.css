@@ -130,6 +130,11 @@ span.menu-burger{
     padding: 0 30px;
     height: 50px;
 }
+  aside.facets-wrapper {
+    margin-right: 15px;
+    max-width: 100%;
+    margin-left: 15px;
+}
   .grid--3-col-desktop .grid__item {
     width: 100%;
     max-width: 100%;
