@@ -95,6 +95,10 @@ span.menu-burger{
     left: 0;
     top: -20px;
 }
+  .before-footer .img-right {
+    right: 0;
+     top: -20px;
+}
   .before-footer img {
     width: 90px;
 }
