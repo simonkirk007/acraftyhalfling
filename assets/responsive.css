@@ -10,7 +10,12 @@
 .header-wrap header {
     padding: 15px 15px !important;
 }
-
+.button.button--primary {
+    padding: 0px 40px;
+    height: 60px;
+    font-size: 30px;
+}
+  
 
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
