@@ -247,6 +247,9 @@ header .header__icons,
   .mobile-facets__clear-wrapper .button.button--primary {
     font-size: 18px;
 }
+  h2.mobile-facets__heading {
+    font-size: 30px;
+}
   .title-wrap {
     min-height: 350px !important;
   }
