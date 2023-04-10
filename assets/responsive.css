@@ -32,6 +32,10 @@
 section.about-sec .content-wrap p {
     font-size: 20px;
 }
+
+.main-title {
+    margin: 0 auto 50px;
+}
   
 }
 @media only screen and (min-width : 100px) and (max-width : 900px) {
