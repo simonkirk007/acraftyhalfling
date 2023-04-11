@@ -282,6 +282,9 @@ header .header__icons,
   
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
+  .slideshow__text-wrapper .image-bg img {
+    width: 100%;
+}
     aside.facets-wrapper {
     margin-right: 15px;
     max-width: 100%;
