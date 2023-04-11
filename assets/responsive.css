@@ -282,6 +282,9 @@ header .header__icons,
   
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
+ .overlay-content ul.list-menu li a {
+    font-size: 24px;
+}
   .slideshow__text-wrapper .image-bg img {
     width: 100%;
 }
