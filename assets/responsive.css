@@ -291,6 +291,12 @@ header .header__icons,
   
 }
 @media only screen and (min-width : 100px) and (max-width : 500px) {
+  .about-page.about-left .image-wrap .inner-wrap:nth-child(1), 
+  .about-page.about-left .image-wrap .inner-wrap:nth-child(2),
+  .about-page.about-left .image-wrap .inner-wrap:nth-child(3) {
+        grid-column: 1/2;
+  }
+
  .overlay-content ul.list-menu li a {
     font-size: 24px;
 }
