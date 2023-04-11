@@ -11,7 +11,18 @@
       <div class="row justify-content-between align-items-end">
         <div class="col-lg-4">
           <div class="about-img about-left">
-            <img src="{{ section.settings.left_image | image_url }}" alt="">
+            <div class="image-wrap">
+              <div class="inner-wrap">
+                <img src="{{ section.settings.image_1 | image_url }}" alt="">
+              </div>
+              <div class="inner-wrap">
+                <img src="{{ section.settings.image_2 | image_url }}" alt="">
+              </div>
+              <div class="inner-wrap">
+                <img src="{{ section.settings.image_3 | image_url }}" alt="">
+              </div>
+            </div>
+<!--             <img src="{{ section.settings.left_image | image_url }}" alt=""> -->
           </div>
         </div>
         <div class="col-lg-3">
@@ -21,7 +32,18 @@
         </div>
         <div class="col-lg-4">
           <div class="about-img about-right">
-            <img src="{{ section.settings.right_image | image_url }}" alt="">
+            <div class="image-wrap">
+              <div class="inner-wrap">
+                <img src="{{ section.settings.image_1 | image_url }}" alt="">
+              </div>
+              <div class="inner-wrap">
+                <img src="{{ section.settings.image_2 | image_url }}" alt="">
+              </div>
+              <div class="inner-wrap">
+                <img src="{{ section.settings.image_3 | image_url }}" alt="">
+              </div>
+            </div>
+<!--             <img src="{{ section.settings.right_image | image_url }}" alt=""> -->
           </div>
         </div>
       </div>
