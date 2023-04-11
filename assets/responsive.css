@@ -159,6 +159,9 @@ span.menu-burger{
   .about-img.about-center {
     text-align: center;
 }
+  .about-img.about-center img {
+    margin: 30px 0px;
+}
   .slideshow__text-wrapper.banner__content {
     flex-direction: column;
 }
