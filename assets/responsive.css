@@ -4,7 +4,7 @@
 }
 @media only screen and (min-width : 100px) and (max-width : 1100px) {
   section.about-sec {
-    padding: 80px 0 50px;
+    padding: 80px 0 50px !important;
   }
   section.about-sec .about-page.about-left, section.about-sec .about-page.about-right {
     padding: 0;
