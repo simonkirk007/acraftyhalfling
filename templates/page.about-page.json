@@ -3,10 +3,10 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 28,
+        "padding_top": 40,
         "padding_bottom": 28,
         "title": "About A Crafty Halfling",
-        "banner_text": "<p>Purveyor of horns, wings, and other magical things. We provide everyday magic through table top role playing and cosplay accessoriesss.<\/p>"
+        "banner_text": "<p>Purveyor of horns, wings, and other magical things. We provide everyday magic through table top role playing and cosplay accessories.<\/p>"
       }
     },
     "f14a92f7-1b4d-4cca-bea6-0a3f6bd74379": {
