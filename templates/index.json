@@ -122,6 +122,7 @@
     },
     "c0d5860c-e3ef-4817-b284-5166b2c5ae82": {
       "type": "custom-products",
+      "disabled": true,
       "blocks": {
         "bdb83bb8-8ded-465b-bbad-6504b014befe": {
           "type": "column",
