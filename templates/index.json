@@ -210,6 +210,7 @@
     },
     "937275ba-06ea-43e3-8330-046e49e643dc": {
       "type": "custom-order",
+      "disabled": true,
       "blocks": {
         "template--18049197867294__937275ba-06ea-43e3-8330-046e49e643dc-1677950822ae38301e-0": {
           "type": "column",
@@ -285,6 +286,7 @@
     },
     "857729cb-ae42-455a-9617-53d3a4d5ec04": {
       "type": "custom-shipping",
+      "disabled": true,
       "blocks": {
         "template--18049197867294__857729cb-ae42-455a-9617-53d3a4d5ec04-167809072999bfbe94-0": {
           "type": "column",
