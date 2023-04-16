@@ -20,13 +20,6 @@
             "menu": "footer"
           }
         },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "other-links"
-          }
-        },
         "footer-2": {
           "type": "text",
           "settings": {
@@ -38,7 +31,6 @@
       "block_order": [
         "ee68bd5b-e3a2-4a58-9c8a-22abc9dff23c",
         "footer-0",
-        "footer-1",
         "footer-2"
       ],
       "settings": {
