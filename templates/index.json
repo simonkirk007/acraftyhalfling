@@ -253,7 +253,6 @@
     },
     "857729cb-ae42-455a-9617-53d3a4d5ec04": {
       "type": "custom-shipping",
-      "disabled": true,
       "blocks": {
         "template--18049197867294__857729cb-ae42-455a-9617-53d3a4d5ec04-167809072999bfbe94-0": {
           "type": "column",
