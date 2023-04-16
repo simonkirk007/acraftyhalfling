@@ -129,6 +129,7 @@
     },
     "32c41e16-1668-4501-963b-0399f80ab824": {
       "type": "custom-about-text",
+      "disabled": true,
       "settings": {
         "main_title": "About Crafty Halfling",
         "main_content": "Our brand focuses on clever ways to incorporate fantasy into everyday life. Crafty is a play on words of handmade crafts as well and cleverness.",
