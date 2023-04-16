@@ -60,6 +60,73 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "222904a1-4ae0-411d-bcf9-b4103ce05918": {
+      "type": "custom-category",
+      "blocks": {
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_77.png",
+            "cat_title": "Multicolumn",
+            "button_link": "shopify:\/\/collections"
+          }
+        },
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_78.png",
+            "cat_title": "Multicolumn",
+            "button_link": "shopify:\/\/collections"
+          }
+        },
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_79.png",
+            "cat_title": "Multicolumn",
+            "button_link": "shopify:\/\/collections"
+          }
+        },
+        "3b2f0ce7-55bc-4210-b7b3-dca5da161908": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_75.png",
+            "cat_title": "Multicolumn",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "a8bb6426-37e9-4572-b346-cdc44e39be3b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_74.png",
+            "cat_title": "Multicolumn",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "723d84a4-ae61-48f1-a93a-fbd0c711b2c8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_76.png",
+            "cat_title": "Multicolumn",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-0",
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-1",
+        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-2",
+        "3b2f0ce7-55bc-4210-b7b3-dca5da161908",
+        "a8bb6426-37e9-4572-b346-cdc44e39be3b",
+        "723d84a4-ae61-48f1-a93a-fbd0c711b2c8"
+      ],
+      "settings": {
+        "main_title": "shop by category",
+        "main_content": "Our brand focuses on clever ways to incorporate fantasy into everyday life.",
+        "main_button_text": "Shop Now",
+        "main_button_link": "shopify:\/\/collections\/all"
+      }
+    },
     "32c41e16-1668-4501-963b-0399f80ab824": {
       "type": "custom-about-text",
       "settings": {
@@ -141,73 +208,6 @@
         "main_button_text": "",
         "main_button_link": "",
         "collection": "home-page"
-      }
-    },
-    "222904a1-4ae0-411d-bcf9-b4103ce05918": {
-      "type": "custom-category",
-      "blocks": {
-        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layer_77.png",
-            "cat_title": "Multicolumn",
-            "button_link": "shopify:\/\/collections"
-          }
-        },
-        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layer_78.png",
-            "cat_title": "Multicolumn",
-            "button_link": "shopify:\/\/collections"
-          }
-        },
-        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layer_79.png",
-            "cat_title": "Multicolumn",
-            "button_link": "shopify:\/\/collections"
-          }
-        },
-        "3b2f0ce7-55bc-4210-b7b3-dca5da161908": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layer_75.png",
-            "cat_title": "Multicolumn",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        },
-        "a8bb6426-37e9-4572-b346-cdc44e39be3b": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layer_74.png",
-            "cat_title": "Multicolumn",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        },
-        "723d84a4-ae61-48f1-a93a-fbd0c711b2c8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Layer_76.png",
-            "cat_title": "Multicolumn",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-0",
-        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-1",
-        "template--18049197867294__222904a1-4ae0-411d-bcf9-b4103ce05918-1677775877ef6b471f-2",
-        "3b2f0ce7-55bc-4210-b7b3-dca5da161908",
-        "a8bb6426-37e9-4572-b346-cdc44e39be3b",
-        "723d84a4-ae61-48f1-a93a-fbd0c711b2c8"
-      ],
-      "settings": {
-        "main_title": "shop by category",
-        "main_content": "Our brand focuses on clever ways to incorporate fantasy into everyday life.",
-        "main_button_text": "Shop Now",
-        "main_button_link": "shopify:\/\/collections\/all"
       }
     },
     "937275ba-06ea-43e3-8330-046e49e643dc": {
@@ -326,10 +326,10 @@
   },
   "order": [
     "82c2f430-3351-4c44-af7a-3b7cc0a24eb9",
+    "222904a1-4ae0-411d-bcf9-b4103ce05918",
     "32c41e16-1668-4501-963b-0399f80ab824",
     "c70b9d43-0bc1-45a7-b4b6-840388de779d",
     "c0d5860c-e3ef-4817-b284-5166b2c5ae82",
-    "222904a1-4ae0-411d-bcf9-b4103ce05918",
     "937275ba-06ea-43e3-8330-046e49e643dc",
     "3bae5b73-ae94-4f80-9b2d-aea38434bc9a",
     "857729cb-ae42-455a-9617-53d3a4d5ec04"
