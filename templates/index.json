@@ -330,15 +330,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "b2c208a3-7157-4da4-a047-8877887a4185": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div id=\"instagram-feed-box\"><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -350,7 +341,6 @@
     "937275ba-06ea-43e3-8330-046e49e643dc",
     "3bae5b73-ae94-4f80-9b2d-aea38434bc9a",
     "857729cb-ae42-455a-9617-53d3a4d5ec04",
-    "16816572302ee7019d",
-    "b2c208a3-7157-4da4-a047-8877887a4185"
+    "16816572302ee7019d"
   ]
 }
