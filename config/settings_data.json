@@ -143,7 +143,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "13057770590969753118": {
+        "type": "shopify:\/\/apps\/instafeed-story-instagram-feed\/blocks\/app-embed\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
