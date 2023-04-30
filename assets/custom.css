@@ -1173,3 +1173,28 @@ body.index .before-footer {
     text-align: center;
     display: block;
 }
+
+
+.all-collection-title h1.collection-hero__title {
+    margin: 0;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+
+ul.collection-list h3 {
+    text-align: center;
+    color: #daa520;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+ul.collection-list .card {
+    background-color: #000;
+    border-radius: 25px;
+}
+
+ul.collection-list h3 a:hover {
+    color: #fff;
+}
