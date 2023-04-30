@@ -369,13 +369,9 @@ section.product-sec .main-title h1, section.product-sec .main-title p {
 }
 
 .product-box .product-con h3 a {
-    font-size: 60px;
+    font-size: 54px;
     color: #daa520;
     text-decoration: unset;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: block;
     line-height: 45px;
 }
 
