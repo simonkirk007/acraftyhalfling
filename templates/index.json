@@ -190,7 +190,6 @@
     },
     "c0d5860c-e3ef-4817-b284-5166b2c5ae82": {
       "type": "custom-products",
-      "disabled": true,
       "blocks": {
         "bdb83bb8-8ded-465b-bbad-6504b014befe": {
           "type": "column",
@@ -291,7 +290,7 @@
       "type": "apps",
       "blocks": {
         "9571ec3c-5e2e-4e19-ab75-12ac8e37415b": {
-          "type": "shopify:\/\/apps\/instafeed-story-instagram-feed\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "type": "shopify:\/\/apps\/instafeed-story\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
           "settings": {
           }
         }
