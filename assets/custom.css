@@ -1165,3 +1165,11 @@ body.index .before-footer {
     font-family: 'Sarcastic Inline';
     font-size: 25px;
 }
+
+.all-collection-title h1.collection-hero__title {
+    margin: 0;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
