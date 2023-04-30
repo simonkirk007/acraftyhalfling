@@ -374,7 +374,11 @@ section.product-sec .main-title h1, section.product-sec .main-title p {
     text-decoration: unset;
     line-height: 45px;
 }
-
+.product-box .product-con h3 a.text-truncate {
+    overflow: auto;
+    text-overflow: unset;
+    white-space: break-spaces;
+}
 .product-box .product-con .price {
     font-size: 50px;
     color: #fff;
