@@ -581,12 +581,9 @@ form#ContactForm textarea {
     font-size: 55px;
     color: #000;
     text-decoration: unset;
-    text-overflow: ellipsis;
     line-height: 45px;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    display: block;
+
 }
 
 
