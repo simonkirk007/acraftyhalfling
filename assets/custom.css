@@ -1227,3 +1227,7 @@ ul.collection-list h3 a:hover {
 .search__button {
     height: 65px;
 }
+
+.cat-sec .collection-wrap .collection-img h2 {
+    line-height: 50px;
+}
