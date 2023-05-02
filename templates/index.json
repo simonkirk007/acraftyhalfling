@@ -75,7 +75,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Layer_78.png",
-            "cat_title": "Dragon Scarves",
+            "cat_title": "Dragon <br> Scarves",
             "button_link": "shopify:\/\/collections"
           }
         },
@@ -83,7 +83,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Layer_79.png",
-            "cat_title": "Dragon Wing Backpacks",
+            "cat_title": "Dragon Wing <br> Backpacks",
             "button_link": "shopify:\/\/collections"
           }
         },
@@ -91,7 +91,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Layer_75.png",
-            "cat_title": "Fairy Wing Backpacks",
+            "cat_title": "Fairy Wing<br> Backpacks",
             "button_link": "shopify:\/\/collections\/all"
           }
         },
@@ -99,7 +99,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Layer_74.png",
-            "cat_title": "Angel Wing Backpacks",
+            "cat_title": "Angel Wing <br>Backpacks",
             "button_link": "shopify:\/\/collections\/all"
           }
         },
@@ -107,7 +107,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Layer_76.png",
-            "cat_title": "Butterfly Wing Backpacks",
+            "cat_title": "Butterfly Wing <br>Backpacks",
             "button_link": "shopify:\/\/collections\/all"
           }
         }
