@@ -4,7 +4,9 @@
       "type": "main-page",
       "settings": {
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 100,
+        "title": "Contact Us",
+        "banner_text": "<p>We'd love to hear from you. Send us a message or <\/p><p>meet us in person at a local anime convention<\/p>"
       }
     },
     "form": {
