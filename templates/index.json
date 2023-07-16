@@ -90,11 +90,10 @@
         },
         "3b2f0ce7-55bc-4210-b7b3-dca5da161908": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Layer_75.png",
-            "cat_title": "Fairy Wing<br> Backpacks",
-            "button_link": "shopify:\/\/collections\/all"
+            "image": "shopify:\/\/shop_images\/Head_0004_Rainbow.jpg",
+            "cat_title": "Headbands",
+            "button_link": "shopify:\/\/collections\/headbands"
           }
         },
         "a8bb6426-37e9-4572-b346-cdc44e39be3b": {
